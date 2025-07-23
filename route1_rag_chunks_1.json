@@ -1,0 +1,170 @@
+{
+  "sections": [
+    {
+      "heading": "Route 1",
+      "text": "Route 1 is a peaceful, country road that leads north from Pallet Town to Viridian City. The path is riddled with patches of tall grass and one-way ledges that make northward travel difficult. It is not yet possible to catch any of the wild Pokémon here, but it is still good to battle them to earn valuable Experience Points.",
+      "tables": [
+        {
+          "rows": [
+            [
+              "Pokémon",
+              "Location",
+              "Levels",
+              "Rate"
+            ],
+            [
+              "Pidgey",
+              "Grass",
+              "2-5",
+              "50%"
+            ],
+            [
+              "Rattata",
+              "Grass",
+              "2-4",
+              "50%"
+            ]
+          ]
+        }
+      ],
+      "tableFacts": [
+        "Pidgey can be encountered in the grass at levels 2-5 with a 50% encounter rate.",
+        "Rattata can be encountered in the grass at levels 2-4 with a 50% encounter rate."
+      ],
+      "images": [
+        {
+          "src": "https://archives.bulbagarden.net/media/upload/thumb/b/b2/Kanto_Route_1_FRLG.png/300px-Kanto_Route_1_FRLG.png",
+          "alt": "Route 1"
+        }
+      ]
+    },
+    {
+      "heading": "Viridian City",
+      "text": "Viridian City is a small, nature-loving city that is enveloped in green year-round. It is located between Route 1 to the south, Route 2 to the north, and Route 22 to the west.",
+      "tables": [
+        {
+          "rows": [
+            [
+              "Item",
+              "Location",
+              "Games"
+            ],
+            [
+              "Oak's Parcel",
+              "Poké Mart; from the shopkeeper",
+              "FR, LG"
+            ],
+            [
+              "Potion",
+              "Near the city's north exit, west of the small tree",
+              "FR, LG"
+            ],
+            [
+              "Teachy TV",
+              "From the old man who demonstrates how to catch a Pokémon",
+              "FR, LG"
+            ],
+            [
+              "Revive",
+              "Inside Viridian Gym",
+              "FR, LG"
+            ],
+            [
+              "TM26 (Earthquake)",
+              "From the Gym Leader, after defeating him",
+              "FR, LG"
+            ]
+          ]
+        }
+      ],
+      "tableFacts": [
+        "Oak's Parcel can be obtained from the Poké Mart shopkeeper in Viridian City.",
+        "A Potion can be found near the city's north exit, west of the small tree.",
+        "Teachy TV is given by the old man who demonstrates how to catch a Pokémon.",
+        "A Revive can be found inside Viridian Gym.",
+        "TM26, which contains the move Earthquake, is awarded by the Gym Leader after defeating him."
+      ],
+      "images": [
+        {
+          "src": "https://archives.bulbagarden.net/media/upload/thumb/9/9f/Viridian_City_FRLG.png/600px-Viridian_City_FRLG.png",
+          "alt": "Viridian City"
+        }
+      ]
+    },
+    {
+      "heading": "Route 22",
+      "text": "It is not yet possible to fully explore Route 22, but you may still hunt for new Pokémon. A short way into the route, Blue appears and challenges you to a battle.",
+      "tables": [
+        {
+          "rows": [
+            [
+              "Pokémon",
+              "Location",
+              "Levels",
+              "Rate"
+            ],
+            [
+              "Rattata",
+              "Grass",
+              "2-5",
+              "45%"
+            ],
+            [
+              "Mankey",
+              "Grass",
+              "2-5",
+              "45%"
+            ],
+            [
+              "Spearow",
+              "Grass",
+              "3, 5",
+              "10%"
+            ]
+          ]
+        }
+      ],
+      "tableFacts": [
+        "Rattata can be encountered in the grass at levels 2-5 with a 45% encounter rate.",
+        "Mankey can be encountered in the grass at levels 2-5 with a 45% encounter rate.",
+        "Spearow can be encountered in the grass at levels 3 and 5 with a 10% encounter rate."
+      ],
+      "rivalFacts": [
+        {
+          "starter": "Bulbasaur",
+          "rival": "Blue",
+          "location": "Route 22",
+          "reward": 144,
+          "team": [
+            "Pidgey (Lv 9)",
+            "Charmander (Lv 9)",
+            "Squirtle (Lv 9)"
+          ]
+        },
+        {
+          "starter": "Charmander",
+          "rival": "Blue",
+          "location": "Route 22",
+          "reward": 144,
+          "team": [
+            "Pidgey (Lv 9)",
+            "Bulbasaur (Lv 9)",
+            "Squirtle (Lv 9)"
+          ]
+        },
+        {
+          "starter": "Squirtle",
+          "rival": "Blue",
+          "location": "Route 22",
+          "reward": 144,
+          "team": [
+            "Pidgey (Lv 9)",
+            "Bulbasaur (Lv 9)",
+            "Charmander (Lv 9)"
+          ]
+        }
+      ],
+      "images": []
+    }
+  ]
+}

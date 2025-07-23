@@ -1,0 +1,391 @@
+{
+  "sections": [
+    {
+      "heading": "Walkthrough:Pokémon FireRed and LeafGreen/Part 2",
+      "text": "This is the Bulbapedia walkthrough for Pokémon FireRed and LeafGreen. These pages follow the remade Game Boy Advance iteration, not Pokémon Red and Blue. The guide for those games can be found here.",
+      "tables": [],
+      "tableFacts": [],
+      "rivalFacts": [],
+      "images": [],
+      "subsections": [
+        {
+          "heading": "Route 1",
+          "text": "Route 1 is a peaceful, country road that leads north from Pallet Town to Viridian City. The path is riddled with patches of tall grass and one-way ledges that make northward travel difficult. It is not yet possible to catch any of the wild Pokémon here, but it is still good to battle them to earn valuable Experience Points.",
+          "tables": [
+            {
+              "rows": [
+                [
+                  "Pokémon",
+                  "Games",
+                  "Location",
+                  "Levels",
+                  "Rate"
+                ],
+                [
+                  "Pidgey",
+                  "FR, LG",
+                  "Grass",
+                  "2-5",
+                  "50%"
+                ],
+                [
+                  "Rattata",
+                  "FR, LG",
+                  "Grass",
+                  "2-4",
+                  "50%"
+                ]
+              ]
+            }
+          ],
+          "tableFacts": [
+            "Pidgey can be encountered in the grass at levels 2-5 with a 50% encounter rate.",
+            "Rattata can be encountered in the grass at levels 2-4 with a 50% encounter rate."
+          ],
+          "rivalFacts": [],
+          "images": [
+            {
+              "src": "https://archives.bulbagarden.net/media/upload/thumb/b/b2/Kanto_Route_1_FRLG.png/300px-Kanto_Route_1_FRLG.png",
+              "alt": "Route 1"
+            }
+          ],
+          "subsections": [
+            {
+              "heading": "Free Sample",
+              "text": "Speak to the man on the south side of the route, near the signpost. He works at the Poké Mart in Viridian City and gives you a Potion as a free sample.",
+              "tables": [],
+              "tableFacts": [],
+              "rivalFacts": [],
+              "images": [],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "heading": "Viridian City",
+          "text": "Viridian City is a small, nature-loving city that is enveloped in green year-round. It is located between Route 1 to the south, Route 2 to the north, and Route 22 to the west.",
+          "tables": [
+            {
+              "rows": [
+                [
+                  "Item",
+                  "Location",
+                  "Games"
+                ],
+                [
+                  "Oak's Parcel",
+                  "Poké Mart; from the shopkeeper",
+                  "FR, LG"
+                ],
+                [
+                  "Potion",
+                  "Near the city's north exit, west of the small tree",
+                  "FR, LG"
+                ],
+                [
+                  "Teachy TV",
+                  "From the old man who demonstrates how to catch a Pokémon",
+                  "FR, LG"
+                ],
+                [
+                  "Revive",
+                  "Inside Viridian Gym",
+                  "FR, LG"
+                ],
+                [
+                  "TM26 (Earthquake)",
+                  "From the Gym Leader, after defeating him",
+                  "FR, LG"
+                ]
+              ]
+            }
+          ],
+          "tableFacts": [
+            "Oak's Parcel can be obtained from the Poké Mart shopkeeper in Viridian City.",
+            "A Potion can be found near the city's north exit, west of the small tree.",
+            "Teachy TV is given by the old man who demonstrates how to catch a Pokémon.",
+            "A Revive can be found inside Viridian Gym.",
+            "TM26, which contains the move Earthquake, is given by the Gym Leader after defeating him."
+          ],
+          "rivalFacts": [],
+          "images": [
+            {
+              "src": "https://archives.bulbagarden.net/media/upload/thumb/9/9f/Viridian_City_FRLG.png/600px-Viridian_City_FRLG.png",
+              "alt": "Viridian City"
+            }
+          ],
+          "subsections": [
+            {
+              "heading": "Pokémon Center",
+              "text": "The first building you will see is the Pokémon Center. This Pokémon hospital will heal your team to full health and eliminate any status ailments they may have. Each facility also has a PC for Trainers to use, where they can access their Pokémon storage and item storage.",
+              "tables": [],
+              "tableFacts": [],
+              "rivalFacts": [],
+              "images": [],
+              "subsections": []
+            },
+            {
+              "heading": "Poké Mart",
+              "text": "Another shop sits to the northeast of the Pokémon Center. This is the local Poké Mart; these stores offer a variety of Poké Balls, Potions, and other items.",
+              "tables": [
+                {
+                  "rows": [
+                    [
+                      "Poké Mart"
+                    ],
+                    [
+                      "Poké Ball",
+                      "$200"
+                    ],
+                    [
+                      "Potion",
+                      "$300"
+                    ],
+                    [
+                      "Antidote",
+                      "$100"
+                    ],
+                    [
+                      "Parlyz Heal",
+                      "$200"
+                    ]
+                  ]
+                }
+              ],
+              "tableFacts": [
+                "Poké Balls cost $200.",
+                "Potions cost $300.",
+                "Antidotes cost $100.",
+                "Paralyze Heals cost $200."
+              ],
+              "rivalFacts": [],
+              "images": [],
+              "subsections": [
+                {
+                  "heading": "Special Delivery",
+                  "text": "When you step inside, the shopkeeper recognizes you as someone from Pallet Town and calls you over to the counter. It seems that Professor Oak had ordered something that was recently delivered. The shopkeeper hands Oak's Parcel to you and asks that you take it to him.",
+                  "tables": [],
+                  "tableFacts": [],
+                  "rivalFacts": [],
+                  "images": [],
+                  "subsections": []
+                }
+              ]
+            },
+            {
+              "heading": "Pokémon Academy",
+              "text": "The Pokémon academy in the city's center teaches inexperienced Trainers about the basics of battle.",
+              "tables": [
+                {
+                  "rows": [
+                    [
+                      "Ailment",
+                      "Effect(s)"
+                    ],
+                    [
+                      "BRN",
+                      "Burn: Attack drops to 50%; inflicts damage equal to 1/8 of maximum HP every turn"
+                    ],
+                    [
+                      "FRZ",
+                      "Freeze: Cannot move until thawed"
+                    ],
+                    [
+                      "PAR",
+                      "Paralysis: Speed drops to 25%; cannot attack 1/4 of the time"
+                    ],
+                    [
+                      "PSN",
+                      "Poison: Inflicts damage equal to 1/8 of maximum HP every turn; loses 1 HP for every five steps taken outside of battle"
+                    ],
+                    [
+                      "SLP",
+                      "Sleep: Cannot move for one to six turns"
+                    ]
+                  ]
+                }
+              ],
+              "tableFacts": [],
+              "rivalFacts": [],
+              "images": [],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "heading": "Pallet Town",
+          "text": "Deliver Oak's Parcel, a custom Poké Ball, to him and Blue arrives a moment later. The professor has a request for each of you: take the Pokédex he invented and use it to gather information on all the Pokémon in the world.",
+          "tables": [],
+          "tableFacts": [],
+          "rivalFacts": [],
+          "images": [],
+          "subsections": [
+            {
+              "heading": "Oak's Lab",
+              "text": "Deliver Oak's Parcel to him and receive five Poké Balls to help get you started.",
+              "tables": [],
+              "tableFacts": [],
+              "rivalFacts": [],
+              "images": [],
+              "subsections": []
+            },
+            {
+              "heading": "Blue's house",
+              "text": "Visit your rival's house before leaving town and speak to his sister, Daisy, to receive a Town Map.",
+              "tables": [],
+              "tableFacts": [],
+              "rivalFacts": [],
+              "images": [],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "heading": "Route 22",
+          "text": "It is not yet possible to fully explore Route 22, but you may still hunt for new Pokémon. A short way into the route, Blue appears and challenges you to a battle.",
+          "tables": [
+            {
+              "rows": [
+                [
+                  "Pokémon",
+                  "Games",
+                  "Location",
+                  "Levels",
+                  "Rate"
+                ],
+                [
+                  "Rattata",
+                  "FR, LG",
+                  "Grass",
+                  "2-5",
+                  "45%"
+                ],
+                [
+                  "Mankey",
+                  "FR, LG",
+                  "Grass",
+                  "2-5",
+                  "45%"
+                ],
+                [
+                  "Spearow",
+                  "FR, LG",
+                  "Grass",
+                  "3, 5",
+                  "10%"
+                ]
+              ]
+            }
+          ],
+          "tableFacts": [
+            "Rattata can be encountered in the grass at levels 2-5 with a 45% encounter rate.",
+            "Mankey can be encountered in the grass at levels 2-5 with a 45% encounter rate.",
+            "Spearow can be encountered in the grass at levels 3 and 5 with a 10% encounter rate."
+          ],
+          "rivalFacts": [
+            "Blue appears and challenges you to a battle after you enter Route 22. He has added a Pidgey to his team since your last encounter."
+          ],
+          "images": [],
+          "subsections": [
+            {
+              "heading": "Rival Battle 2",
+              "text": "Little has changed since your fight in Oak's Lab, but he has since added a Pidgey to his team. Trainers who chose Bulbasaur should be especially wary, as his Pidgey can deal serious damage to Grass Pokémon with Gust.",
+              "tables": [],
+              "tableFacts": [],
+              "rivalFacts": [],
+              "images": [],
+              "subsections": [
+                {
+                  "heading": "If the player chose Bulbasaur:",
+                  "text": "Blue's team includes a level 9 Pidgey.",
+                  "tables": [],
+                  "tableFacts": [],
+                  "rivalFacts": [],
+                  "images": [],
+                  "subsections": []
+                },
+                {
+                  "heading": "If the player chose Charmander:",
+                  "text": "Blue's team includes a level 9 Pidgey.",
+                  "tables": [],
+                  "tableFacts": [],
+                  "rivalFacts": [],
+                  "images": [],
+                  "subsections": []
+                },
+                {
+                  "heading": "If the player chose Squirtle:",
+                  "text": "Blue's team includes a level 9 Pidgey.",
+                  "tables": [],
+                  "tableFacts": [],
+                  "rivalFacts": [],
+                  "images": [],
+                  "subsections": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Route 2 (West)",
+          "text": "Route 2 runs northward from Viridian City to Pewter City. Much of the route's west side is occupied by a large maze of trees known as Viridian Forest.",
+          "tables": [
+            {
+              "rows": [
+                [
+                  "Pokémon",
+                  "Games",
+                  "Location",
+                  "Levels",
+                  "Rate"
+                ],
+                [
+                  "Pidgey",
+                  "FR, LG",
+                  "Grass",
+                  "2-5",
+                  "45%"
+                ],
+                [
+                  "Rattata",
+                  "FR, LG",
+                  "Grass",
+                  "2-5",
+                  "45%"
+                ],
+                [
+                  "Caterpie",
+                  "FR, LG",
+                  "Grass",
+                  "4-5",
+                  "5%"
+                ],
+                [
+                  "Weedle",
+                  "FR, LG",
+                  "Grass",
+                  "4-5",
+                  "5%"
+                ]
+              ]
+            }
+          ],
+          "tableFacts": [
+            "Pidgey can be encountered in the grass at levels 2-5 with a 45% encounter rate.",
+            "Rattata can be encountered in the grass at levels 2-5 with a 45% encounter rate.",
+            "Caterpie can be encountered in the grass at levels 4-5 with a 5% encounter rate.",
+            "Weedle can be encountered in the grass at levels 4-5 with a 5% encounter rate."
+          ],
+          "rivalFacts": [],
+          "images": [
+            {
+              "src": "https://archives.bulbagarden.net/media/upload/thumb/2/26/Kanto_Route_2_FRLG.png/200px-Kanto_Route_2_FRLG.png",
+              "alt": "Route 2"
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    }
+  ]
+}

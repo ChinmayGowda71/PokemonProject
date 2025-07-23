@@ -6,6 +6,35 @@ firecrawl_single_test.py
 import os, json, requests
 from pathlib import Path
 from dotenv import load_dotenv
+import requests
+from urllib.parse import quote
+from bs4 import BeautifulSoup
+import re, json, time
+BASE_WIKI = "https://bulbapedia.bulbagarden.net"
+PREFIX = "Walkthrough:"
+HEADERS = {"User-Agent": "Mozilla/5.0"}
+
+def get_part_urls(GAME_NAME):
+    # Step 1: Get the main page and parse all links to /Part_*
+  ENCODED_TITLE_BASE = f"{PREFIX}{quote(GAME_NAME.replace(' ', '_'))}"
+  CATEGORY_PAGE = f"{BASE_WIKI}/wiki/{ENCODED_TITLE_BASE}"
+
+  response = requests.get(CATEGORY_PAGE)
+  soup = BeautifulSoup(response.text, "html.parser")
+  links = soup.find_all("a", href=True)
+  part_urls = []
+
+  for a in links:
+      href = a['href']
+      if href.startswith(f"/wiki/{ENCODED_TITLE_BASE}/Part_"):
+          full_url = BASE_WIKI + href
+          part_urls.append(full_url)
+
+  # Deduplicate and sort by Part number
+  part_urls = sorted(set(part_urls), key=lambda x: int(re.search(r"Part_(\d+)", x).group(1)))
+  return part_urls
+
+
 
 # ------------------------------------------------------------------
 # 1.  Load API key from .env   (add FIRECRAWL_API_KEY=fc-xxxx there)
@@ -18,7 +47,24 @@ if not API_KEY:
 # ------------------------------------------------------------------
 # 2.  Choose the page to test
 # ------------------------------------------------------------------
-TEST_URL = "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_FireRed_and_LeafGreen/Part_2"   # any page
+
+def firecrawl_scrape(url: str) -> dict: 
+    endpoint = "https://api.firecrawl.dev/v1/scrape"
+    payload  = {
+    "url": url,
+    "formats": ["html", "markdown"],   # get both
+    "onlyMainContent": True            # strip nav/ads
+    }
+    resp = requests.post(
+    endpoint,
+    headers={
+        "Authorization": f"Bearer {API_KEY}",
+        "Content-Type":  "application/json"
+    },
+    json=payload,
+    timeout=120
+)
+TEST_URL = "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_X_and_Y/Part_6"   # any page
 
 # ------------------------------------------------------------------
 # 3. Firecrawl /v1/scrape request
@@ -29,6 +75,7 @@ payload  = {
     "formats": ["html", "markdown"],   # get both
     "onlyMainContent": True            # strip nav/ads
 }
+
 
 resp = requests.post(
     endpoint,
