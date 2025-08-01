@@ -41,6 +41,7 @@ def get_part_urls(GAME_NAME):
 # ------------------------------------------------------------------
 load_dotenv()
 API_KEY = os.getenv("FIRECRAWL_API_KEY")
+print(API_KEY)
 if not API_KEY:
     raise RuntimeError("Set FIRECRAWL_API_KEY in .env or environment")
 
@@ -64,39 +65,26 @@ def firecrawl_scrape(url: str) -> dict:
     json=payload,
     timeout=120
 )
-TEST_URL = "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_X_and_Y/Part_6"   # any page
+    resp.raise_for_status()          # raises on 4xx/5xx
+    return resp.json()["data"]
 
-# ------------------------------------------------------------------
-# 3. Firecrawl /v1/scrape request
-# ------------------------------------------------------------------
-endpoint = "https://api.firecrawl.dev/v1/scrape"
-payload  = {
-    "url": TEST_URL,
-    "formats": ["html", "markdown"],   # get both
-    "onlyMainContent": True            # strip nav/ads
-}
+out_dir = Path("frlg_scrape")
+out_dir.mkdir(exist_ok=True)
 
+for url in get_part_urls("Pokémon FireRed and LeafGreen"):
+    part_no = re.search(r"Part_(\d+)", url).group(1)
+    print(f"➡️  Scraping Part {part_no} … ", end="", flush=True)
 
-resp = requests.post(
-    endpoint,
-    headers={
-        "Authorization": f"Bearer {API_KEY}",
-        "Content-Type":  "application/json"
-    },
-    json=payload,
-    timeout=60
-)
-resp.raise_for_status()          # raises on 4xx/5xx
-data = resp.json()["data"]
+    try:
+        data = firecrawl_scrape(url)
+    except Exception as e:
+        print("FAILED", e)
+        continue
 
-# ------------------------------------------------------------------
-# 4.  Inspect & save
-# ------------------------------------------------------------------
-print("✅ Firecrawl success")
-print("  HTML chars   :", len(data["html"]))
-print("  Markdown chars:", len(data["markdown"]))
-print("  Title        :", data["metadata"]["title"])
+    (out_dir / f"FRLG_part{part_no}.html").write_text(data["html"], encoding="utf-8")
+    (out_dir / f"FRLG_part{part_no}.md"  ).write_text(data["markdown"], encoding="utf-8")
 
-Path("firecrawl_test_html.html").write_text(data["html"], encoding="utf-8")
-Path("firecrawl_test_md.md").write_text(data["markdown"], encoding="utf-8")
-print("Saved files: firecrawl_test_html.html & firecrawl_test_md.md")
+    print(f"OK  (html {len(data['html'])//1000} kB, md {len(data['markdown'])//1000} kB)")
+    time.sleep(10)            # be polite to Firecrawl’s free tier
+
+print("✅  All parts downloaded to", out_dir)

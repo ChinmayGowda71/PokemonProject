@@ -1,0 +1,1014 @@
+[
+  {
+    "type": "section",
+    "title": "Route 21",
+    "level": 2,
+    "metadata": {
+      "id": null,
+      "class": []
+    },
+    "content": [
+      {
+        "type": "image",
+        "src": "https://archives.bulbagarden.net/media/upload/thumb/3/3b/Kanto_Route_21_FRLG.png/100px-Kanto_Route_21_FRLG.png",
+        "local_path": null,
+        "caption": "Route 21"
+      },
+      {
+        "type": "paragraph",
+        "text": "Route 21 is an ocean route that leads from Cinnabar Island back to Pallet Town . A single patch of tall grass grows just outside of town."
+      },
+      {
+        "type": "table",
+        "data": {
+          "headers": [
+            "Trainer",
+            "Pokémon"
+          ],
+          "rows": [
+            [
+              "Fisherman Wade Reward: $ 972",
+              [
+                {
+                  "name": "Magikarp ♂",
+                  "level": "27",
+                  "item": "No item"
+                },
+                {
+                  "name": "Magikarp ♂",
+                  "level": "27",
+                  "item": "No item"
+                },
+                {
+                  "name": "Magikarp ♂",
+                  "level": "27",
+                  "item": "No item"
+                },
+                {
+                  "name": "Magikarp ♂",
+                  "level": "27",
+                  "item": "No item"
+                },
+                {
+                  "name": "Magikarp ♂",
+                  "level": "27",
+                  "item": "No item"
+                },
+                {
+                  "name": "Magikarp ♂",
+                  "level": "27",
+                  "item": "No item"
+                }
+              ]
+            ],
+            [
+              "Fisherman Ronald Reward: $ 1008",
+              [
+                {
+                  "name": "Seaking ♂",
+                  "level": "28",
+                  "item": "No item"
+                },
+                {
+                  "name": "Goldeen ♂",
+                  "level": "28",
+                  "item": "No item"
+                },
+                {
+                  "name": "Seaking ♂",
+                  "level": "28",
+                  "item": "No item"
+                },
+                {
+                  "name": "Seaking ♂",
+                  "level": "28",
+                  "item": "No item"
+                }
+              ]
+            ],
+            [
+              "Sis and Bro Lil & Ian Reward: $ 264",
+              [
+                {
+                  "name": "Seadra ♂",
+                  "level": "33",
+                  "item": "No item"
+                },
+                {
+                  "name": "Starmie",
+                  "level": "33",
+                  "item": "No item"
+                }
+              ]
+            ],
+            [
+              "Swimmer♂ Spencer Reward: $ 132",
+              [
+                {
+                  "name": "Seadra ♂",
+                  "level": "33",
+                  "item": "No item"
+                },
+                {
+                  "name": "Tentacruel ♂",
+                  "level": "33",
+                  "item": "No item"
+                }
+              ]
+            ],
+            [
+              "Fisherman Claude Reward: $ 1116",
+              [
+                {
+                  "name": "Shellder ♂",
+                  "level": "31",
+                  "item": "No item"
+                },
+                {
+                  "name": "Cloyster ♂",
+                  "level": "31",
+                  "item": "No item"
+                }
+              ]
+            ],
+            [
+              "Fisherman Nolan Reward: $ 1188",
+              [
+                {
+                  "name": "Seaking ♂",
+                  "level": "33",
+                  "item": "No item"
+                },
+                {
+                  "name": "Goldeen ♂",
+                  "level": "33",
+                  "item": "No item"
+                }
+              ]
+            ],
+            [
+              "Swimmer♂ Jack Reward: $ 148",
+              [
+                {
+                  "name": "Starmie",
+                  "level": "37",
+                  "item": "No item"
+                }
+              ]
+            ],
+            [
+              "Swimmer♂ Roland Reward: $ 128",
+              [
+                {
+                  "name": "Poliwhirl ♂",
+                  "level": "32",
+                  "item": "No item"
+                },
+                {
+                  "name": "Tentacool ♂",
+                  "level": "32",
+                  "item": "No item"
+                },
+                {
+                  "name": "Seadra ♂",
+                  "level": "32",
+                  "item": "No item"
+                }
+              ]
+            ],
+            [
+              "Swimmer♂ Jerome Reward: $ 132",
+              [
+                {
+                  "name": "Staryu",
+                  "level": "33",
+                  "item": "No item"
+                },
+                {
+                  "name": "Wartortle ♂",
+                  "level": "33",
+                  "item": "No item"
+                }
+              ]
+            ]
+          ]
+        }
+      },
+      {
+          "type": "table",
+          "data": {
+            "headers": [
+              "Pokémon",
+              "Games",
+              "Location",
+              "Levels",
+              "Rate"
+            ],
+            "rows": [
+              [
+                "Pokémon",
+                "",
+                "Location",
+                "",
+                ""
+              ],
+              [
+                "Tangela",
+                "FR/LG",
+                "Grass",
+                "17-28",
+                "100%"
+              ],
+            [
+              "Tentacool",
+              "FR/LG",
+              "Surfing",
+              "5-40",
+              "100%"
+            ],
+            [
+              "Magikarp",
+              "FR/LG",
+              "Fishing Old Rod",
+              "",
+              "100%"
+            ],
+            [
+              "Krabby",
+              "FR/LG",
+              "Fishing Good Rod",
+              "5-15",
+              "60%"
+            ],
+            [
+              "Horsea",
+              "FR/LG",
+              "Fishing Good Rod",
+              "5-15",
+              "60%"
+            ],
+            [
+              "Krabby",
+              "FR/LG",
+              "Fishing Good Rod",
+              "5-15",
+              "20%"
+            ],
+            [
+              "Horsea",
+              "FR/LG",
+              "Fishing Good Rod",
+              "5-15",
+              "20%"
+            ],
+            [
+              "Magikarp",
+              "FR/LG",
+              "Fishing Good Rod",
+              "5-15",
+              "20%"
+            ],
+            [
+              "Krabby",
+              "FR/LG",
+              "Fishing Super Rod",
+              "15-25",
+              "80%"
+            ],
+            [
+              "Horsea",
+              "FR/LG",
+              "Fishing Super Rod",
+              "15-25",
+              "80%"
+            ],
+            [
+              "Gyarados",
+              "FR/LG",
+              "Fishing Super Rod",
+              "15-25",
+              "15%"
+            ],
+            [
+              "Kingler",
+              "FR/LG",
+              "Fishing Super Rod",
+              "25-35",
+              "4%"
+            ],
+            [
+              "Seadra",
+              "FR/LG",
+              "Fishing Super Rod",
+              "25-35",
+              "4%"
+            ],
+            [
+              "Psyduck",
+              "FR/LG",
+              "Fishing Super Rod",
+              "25-35",
+              "1%"
+            ],
+            [
+              "Slowpoke",
+              "FR/LG",
+              "Fishing Super Rod",
+              "25-35",
+              "1%"
+            ],
+            [
+              "A colored background means that the Pokémon can be found in this location in the specified game. A white background with a colored letter means that the Pokémon cannot be found here.",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "data": {
+          "headers": [
+            "Item",
+            "Location",
+            "Games"
+          ],
+          "rows": [
+            [
+              "Pearl",
+              "On the fifth island from the south, next to Swimmer Spencer (hidden recurring item ; group B)",
+              "FR LG"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "title": "Pallet Town",
+    "level": 2,
+    "metadata": {
+      "id": null,
+      "class": []
+    },
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Having now explored nearly all of the Kanto region, it is a good time to tie up any loose ends, the most important of which is the Power Plant . To get there, fly back to Route 10 ."
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "title": "Route 10",
+    "level": 2,
+    "metadata": {
+      "id": null,
+      "class": []
+    },
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "To reach the Power Plant , use Surf to follow the river southward past the Rock Tunnel entrance. It is only a short distance away, with a single PokéManiac outside the building."
+      },
+      {
+        "type": "table",
+        "data": {
+          "headers": [
+            "Trainer",
+            "Pokémon"
+          ],
+          "rows": [
+            [
+              "PokéManiac Mark Reward: $ 1392 Requires Surf",
+              [
+                {
+                  "name": "Rhyhorn ♂",
+                  "level": "29",
+                  "item": "No item"
+                },
+                {
+                  "name": "Lickitung ♂",
+                  "level": "29",
+                  "item": "No item"
+                }
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "data": {
+          "headers": [
+            "Pokémon",
+            "Games",
+            "Location",
+            "Levels",
+            "Rate"
+          ],
+          "rows": [
+            [
+              "Pokémon",
+              "",
+              "Location",
+              "",
+              ""
+            ],
+            [
+              "Tentacool",
+              "FR/LG",
+              "Surfing",
+              "5-40",
+              "100%"
+            ],
+            [
+              "Magikarp",
+              "FR/LG",
+              "Fishing Old Rod",
+              "",
+              "100%"
+            ],
+            [
+              "Krabby",
+              "FR/LG",
+              "Fishing Good Rod",
+              "5-15",
+              "60%"
+            ],
+            [
+              "Horsea",
+              "FR/LG",
+              "Fishing Good Rod",
+              "5-15",
+              "60%"
+            ],
+            [
+              "Krabby",
+              "FR/LG",
+              "Fishing Good Rod",
+              "5-15",
+              "20%"
+            ],
+            [
+              "Horsea",
+              "FR/LG",
+              "Fishing Good Rod",
+              "5-15",
+              "20%"
+            ],
+            [
+              "Magikarp",
+              "FR/LG",
+              "Fishing Good Rod",
+              "5-15",
+              "20%"
+            ],
+            [
+              "Krabby",
+              "FR/LG",
+              "Fishing Super Rod",
+              "15-35",
+              "84%"
+            ],
+            [
+              "Horsea",
+              "FR/LG",
+              "Fishing Super Rod",
+              "15-35",
+              "84%"
+            ],
+            [
+              "Gyarados",
+              "FR/LG",
+              "Fishing Super Rod",
+              "15-25",
+              "15%"
+            ],
+            [
+              "Psyduck",
+              "FR/LG",
+              "Fishing Super Rod",
+              "25-35",
+              "1%"
+            ],
+            [
+              "Slowpoke",
+              "FR/LG",
+              "Fishing Super Rod",
+              "25-35",
+              "1%"
+            ],
+            [
+              "A colored background means that the Pokémon can be found in this location in the specified game. A white background with a colored letter means that the Pokémon cannot be found here.",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "data": {
+          "headers": [
+            "Item",
+            "Location",
+            "Games"
+          ],
+          "rows": [
+            [
+              "Max Ether",
+              "One step west, four steps north of PokéManiac Mark (hidden)",
+              "FR LG"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "title": "Power Plant",
+        "level": 3,
+        "metadata": {
+          "id": null,
+          "class": []
+        },
+        "content": [
+          {
+            "type": "image",
+            "src": "https://archives.bulbagarden.net/media/upload/thumb/4/48/Power_Plant_interior_FRLG.png/300px-Power_Plant_interior_FRLG.png",
+            "local_path": null,
+            "caption": "Power Plant"
+          },
+          {
+            "type": "paragraph",
+            "text": "The Power Plant is an industrial complex that was abandoned years ago, though some of the machinery still works. Many forgotten items can be found lying around, but beware: some are actually Electrode that only look like items."
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": [
+                "Pokémon",
+                "Games",
+                "Location",
+                "Levels",
+                "Rate"
+              ],
+              "rows": [
+                [
+                  "Pokémon",
+                  "",
+                  "Location",
+                  "",
+                  ""
+                ],
+                [
+                  "Magnemite",
+                  "FR/LG",
+                  "Walking",
+                  "22, 25",
+                  "30%"
+                ],
+                [
+                  "Voltorb",
+                  "FR/LG",
+                  "Walking",
+                  "22, 25",
+                  "30%"
+                ],
+                [
+                  "Pikachu",
+                  "FR/LG",
+                  "Walking",
+                  "22, 24, 26",
+                  "25%"
+                ],
+                [
+                  "Magneton",
+                  "FR/LG",
+                  "Walking",
+                  "31, 34",
+                  "15%"
+                ],
+                [
+                  "Magneton",
+                  "FR/LG",
+                  "Walking",
+                  "31, 34",
+                  "10%"
+                ],
+                [
+                  "Electabuzz",
+                  "FR/LG",
+                  "Walking",
+                  "32, 35",
+                  "5%"
+                ],
+                [
+                  "A colored background means that the Pokémon can be found in this location in the specified game. A white background with a colored letter means that the Pokémon cannot be found here.",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": [
+                "Item",
+                "Location",
+                "Games"
+              ],
+              "rows": [
+                [
+                  "Max Potion",
+                  "North of the entrance room",
+                  "FR LG"
+                ],
+                [
+                  "TM17 ( Protect )",
+                  "In the long west-east room near the center of the facility",
+                  "FR LG"
+                ],
+                [
+                  "Elixir",
+                  "In the long west-east room near the center of the facility",
+                  "FR LG"
+                ],
+                [
+                  "TM25 ( Thunder )",
+                  "In the southeast room",
+                  "FR LG"
+                ],
+                [
+                  "ThunderStone ×2",
+                  "Northeast room, northeast corner One step south, three steps east of Zapdos ' location (hidden)",
+                  "FR LG"
+                ],
+                [
+                  "Max Elixir",
+                  "Central room, in front of the eastern of three machines (hidden)",
+                  "FR LG"
+                ],
+                [
+                  "Fake items"
+                ],
+                [
+                  "Electrode ×2",
+                  "In the south-central room Northeast room, northwest corner",
+                  "FR LG"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "section",
+            "title": "In Search of Power",
+            "level": 4,
+            "metadata": {
+              "id": null,
+              "class": []
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "Pass through the entrance room to get a Max Potion . Continue in a clockwise direction to the large, central room to find TM17 ( Protect ) and an Elixir . Collect TM25 ( Thunder ) in the southeast room, then follow the narrow hallway northward. Grab the ThunderStone from the northeast corner of the northeast room. Continue westward to reach the final room."
+              },
+              {
+                "type": "section",
+                "title": "VS Zapdos",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Zapdos is the last of the legendary birds that you will encounter. Use Rock - and Ice-type attacks to weaken it quickly, then follow up with Grass , Flying , and Fighting moves to wear its health down further. Like with Articuno and Moltres , it will be useful to cause status ailments like Sleep to increase the odds of catching it."
+                  },
+                  {
+                    "type": "table",
+                    "data": {
+                      "headers": [
+                        "Types: Electric Flying Ability: Pressure Held item: None"
+                      ],
+                      "rows": [
+                        [
+                          "Zapdos Lv. 50"
+                        ],
+                        [
+                          {
+                            "headers": [
+                              "Thunder Wave Electric --",
+                              "Agility Psychic --"
+                            ],
+                            "rows": [
+                              [
+                                {
+                                  "headers": [
+                                    "Detect"
+                                  ],
+                                  "rows": [
+                                    [
+                                      "Fighting"
+                                    ]
+                                  ]
+                                },
+                                {
+                                  "headers": [
+                                    "Drill Peck"
+                                  ],
+                                  "rows": [
+                                    [
+                                      "Flying"
+                                    ]
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "When the battle is over, take the side exit and fly back to Viridian City ."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "title": "Viridian City",
+    "level": 2,
+    "metadata": {
+      "id": null,
+      "class": []
+    },
+    "content": [
+      {
+        "type": "table",
+        "data": {
+          "headers": [
+            "Item",
+            "Location",
+            "Games"
+          ],
+          "rows": [
+            [
+              "Viridian Gym"
+            ],
+            [
+              "TM26 ( Earthquake )",
+              "From Giovanni, after defeating him",
+              "FR LG"
+            ],
+            [
+              "Macho Brace",
+              "On the spot where Giovanni stood (hidden) (requires using the Itemfinder on this spot)",
+              "FR LG"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "title": "Viridian Gym",
+        "level": 3,
+        "metadata": {
+          "id": null,
+          "class": []
+        },
+        "content": [
+          {
+            "type": "image",
+            "src": "https://archives.bulbagarden.net/media/upload/thumb/2/25/Viridian_Gym_FRLG.png/300px-Viridian_Gym_FRLG.png",
+            "local_path": null,
+            "caption": "Viridian Gym"
+          },
+          {
+            "type": "paragraph",
+            "text": "In the time it took to collect the seven other Badges, the Gym Leader of Viridian Gym has finally returned. Giovanni resumed his position as Gym Leader shortly after his defeat in Saffron City . The Viridian Gym specializes in Ground-type Pokémon. Grass -, Water -, and Ice-type attacks will be the most useful. Flying-type Pokémon are immune to Ground attacks and Flying moves will deal serious damage to the several Fighting Pokémon inside. Psychic moves will work wonders against Poison-type Pokémon."
+          },
+          {
+            "type": "paragraph",
+            "text": "Like the Rocket Hideout in Celadon City , the Viridian Gym also employs spinner tiles to confuse and disorient any challengers. Go north through the center room. Battle Ace Trainer Warren and Black Belt Takashi, so that Takashi walks away from the north wall. Return to the entrance and follow the spinner tiles north and west to reach the Gym Leader."
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": [
+                "Trainer",
+                "Pokémon"
+              ],
+              "rows": [
+                [
+                  "Tamer Cole Reward: $ 1560",
+                  [
+                    {
+                      "name": "Arbok ♂",
+                      "level": "39",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Tauros ♂",
+                      "level": "39",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "Black Belt Kiyo Reward: $ 1032",
+                  [
+                    {
+                      "name": "Machoke ♂",
+                      "level": "43",
+                      "item": "Black Belt"
+                    }
+                  ]
+                ],
+                [
+                  "Cooltrainer Samuel Reward: $ 1404",
+                  [
+                    {
+                      "name": "Sandslash ♂",
+                      "level": "37",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Sandslash ♂",
+                      "level": "37",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Rhyhorn ♂",
+                      "level": "38",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Nidorino ♂",
+                      "level": "39",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Nidoking ♂",
+                      "level": "39",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "Cooltrainer Yuji Reward: $ 1368",
+                  [
+                    {
+                      "name": "Sandslash ♂",
+                      "level": "38",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Graveler ♂",
+                      "level": "38",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Onix ♂",
+                      "level": "38",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Graveler ♂",
+                      "level": "38",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Marowak ♂",
+                      "level": "38",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "Black Belt Atsushi Reward: $ 960",
+                  [
+                    {
+                      "name": "Machop ♂",
+                      "level": "40",
+                      "item": "Black Belt"
+                    },
+                    {
+                      "name": "Machoke ♂",
+                      "level": "40",
+                      "item": "Black Belt"
+                    }
+                  ]
+                ],
+                [
+                  "Tamer Jason Reward: $ 1720",
+                  [
+                    {
+                      "name": "Rhyhorn ♂",
+                      "level": "43",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "Cooltrainer Warren Reward: $ 1404",
+                  [
+                    {
+                      "name": "Marowak ♂",
+                      "level": "37",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Marowak ♂",
+                      "level": "37",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Rhyhorn ♂",
+                      "level": "38",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Nidorina ♀",
+                      "level": "39",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Nidoqueen ♀",
+                      "level": "39",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "Black Belt Takashi Reward: $ 912",
+                  [
+                    {
+                      "name": "Machoke ♂",
+                      "level": "38",
+                      "item": "Black Belt"
+                    },
+                    {
+                      "name": "Machop ♂",
+                      "level": "38",
+                      "item": "Black Belt"
+                    },
+                    {
+                      "name": "Machoke ♂",
+                      "level": "38",
+                      "item": "Black Belt"
+                    }
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "paragraph",
+            "text": "After the battle, Giovanni awards you the Earth Badge , which ensures obedience from all Pokémon, regardless of level. As a prize, he also gives you TM26 ( Earthquake ), a TM he claims to have made when he first acted as Gym Leader. He seems remorseful of his actions, and officially disbands Team Rocket before disappearing."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "title": "The Path to the Summit",
+        "level": 3,
+        "metadata": {
+          "id": null,
+          "class": []
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Having won all eight Gym Badges, the next destination is the Indigo Plateau , far to the northwest. The elite Trainers there are tough, but before you can challenge them, you must first survive a grueling cave known as Victory Road . Gather your strongest Pokémon team with access to Surf and Strength , and visit a Poké Mart to replenish your supply of Potions and Poké Balls."
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": [
+                "This article is part of Project Walkthroughs , a Bulbapedia project that aims to write comprehensive step-by-step guides on each Pokémon game ."
+              ],
+              "rows": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

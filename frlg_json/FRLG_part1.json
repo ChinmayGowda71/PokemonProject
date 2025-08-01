@@ -1,0 +1,284 @@
+{
+  "sections": [
+    {
+      "heading": "Walkthrough:Pokémon FireRed and LeafGreen/Part 1",
+      "text": "This is the Bulbapedia walkthrough for Pokémon FireRed and LeafGreen. These pages follow the remade Game Boy Advance iteration, not Pokémon Red and Blue. The guide for those games can be found here.",
+      "tables": [],
+      "tableFacts": [],
+      "rivalFacts": [],
+      "images": [],
+      "subsections": [
+        {
+          "heading": "Introduction",
+          "text": "After a brief cutscene, press the A Button or Start on the title screen. The player is presented with a list of controls in order of importance, then with a mission statement from the games' developers. Afterward, the resident researcher of the Kanto region, Professor Oak, appears and introduces new Trainers to the Pokémon world. First, the player is prompted to select their avatar's gender and name, which may be up to seven characters long. Use the Control Pad to move the cursor and the Select Button to cycle through three pages of upper-case letters, lower-case letters, and other characters. On this screen, pressing the A Button will select a letter while pressing the B Button will delete the previous one. When ready, press Start or select OK in the bottom-right corner. Next, Professor Oak introduces his grandson, who happens to be your rival. The professor is having trouble remembering the boy's name, and asks if you might know. Choose his name from a list of preset names, or select a new one. With that done, the player is transported into the world of Pokémon to begin their adventure!",
+          "tables": [
+            {
+              "rows": [
+                [
+                  "",
+                  "Default Names"
+                ],
+                [
+                  "",
+                  "Pokémon FireRed",
+                  "Pokémon LeafGreen"
+                ],
+                [
+                  "Rival",
+                  "Green, Gary, Kaz, Toru",
+                  "Red, Ash, Kene, Geki"
+                ]
+              ]
+            }
+          ],
+          "tableFacts": [
+            "The rival's default names in Pokémon FireRed are Green, Gary, Kaz, and Toru, while in Pokémon LeafGreen they are Red, Ash, Kene, and Geki."
+          ],
+          "rivalFacts": [],
+          "images": [],
+          "subsections": [
+            {
+              "heading": "Pallet Town",
+              "text": "The journey begins in Pallet Town, in the southwest part of the Kanto region. It is a rather small, sleepy town with only three buildings. The western house belongs to you and Mom, while the eastern one is home to your rival and his sister. The large building to the south is Professor Oak's Laboratory. The north part of town leads to the tall grasses of Route 1, and the waters to the south open up to Route 21.",
+              "tables": [
+                {
+                  "rows": [
+                    [
+                      "",
+                      "Pokémon",
+                      "Games",
+                      "Location",
+                      "Levels",
+                      "Rate"
+                    ],
+                    [
+                      "Gift Pokémon",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    [
+                      "",
+                      "Bulbasaur",
+                      "FR, LG",
+                      "",
+                      "5",
+                      "One"
+                    ],
+                    [
+                      "",
+                      "Charmander",
+                      "FR, LG",
+                      "",
+                      "5",
+                      "One"
+                    ],
+                    [
+                      "",
+                      "Squirtle",
+                      "FR, LG",
+                      "",
+                      "5",
+                      "One"
+                    ]
+                  ]
+                }
+              ],
+              "tableFacts": [
+                "Bulbasaur can be encountered in the game at level 5 with a rate of one.",
+                "Charmander can be encountered in the game at level 5 with a rate of one.",
+                "Squirtle can be encountered in the game at level 5 with a rate of one."
+              ],
+              "rivalFacts": [],
+              "images": [
+                {
+                  "src": "https://archives.bulbagarden.net/media/upload/thumb/7/77/Pallet_Town_FRLG.png/300px-Pallet_Town_FRLG.png",
+                  "alt": "Pallet Town"
+                }
+              ],
+              "subsections": [
+                {
+                  "heading": "Items",
+                  "text": "List of items you can find in Pallet Town.",
+                  "tables": [
+                    {
+                      "rows": [
+                        [
+                          "",
+                          "Item",
+                          "Location",
+                          "Games"
+                        ],
+                        [
+                          "",
+                          "Potion",
+                          "Home; retrievable from the player's PC",
+                          "FR, LG"
+                        ],
+                        [
+                          "",
+                          "Pokédex",
+                          "Oak's Lab; from Professor Oak, after he receives his parcel",
+                          "FR, LG"
+                        ],
+                        [
+                          "",
+                          "Poké Ball",
+                          "Oak's Lab; from Professor Oak, after obtaining the Pokédex",
+                          "FR, LG"
+                        ],
+                        [
+                          "",
+                          "Town Map",
+                          "Blue's house; from Daisy, after obtaining the Pokédex",
+                          "FR, LG"
+                        ]
+                      ]
+                    }
+                  ],
+                  "tableFacts": [
+                    "Potion can be found at home and is retrievable from the player's PC in both games.",
+                    "The Pokédex is obtained from Professor Oak in his lab after he receives his parcel in both games.",
+                    "The Poké Ball can be obtained from Professor Oak in his lab after obtaining the Pokédex in both games.",
+                    "The Town Map is received from Daisy in Blue's house after obtaining the Pokédex in both games."
+                  ],
+                  "rivalFacts": [],
+                  "images": [],
+                  "subsections": []
+                }
+              ]
+            },
+            {
+              "heading": "Home",
+              "text": "The journey begins in your bedroom, with you standing in front of your Nintendo Entertainment System. Now that you can control your character, the various buttons and their effects are as follows:",
+              "tables": [
+                {
+                  "rows": [
+                    [
+                      "Input",
+                      "Effect(s)"
+                    ],
+                    [
+                      "+Control Pad",
+                      "Moves character; moves cursor in a menu"
+                    ],
+                    [
+                      "A Button",
+                      "Interact with people and the environment; select menu options"
+                    ],
+                    [
+                      "B Button",
+                      "Cancel a selection; exit a menu"
+                    ],
+                    [
+                      "Start",
+                      "Opens the main menu"
+                    ],
+                    [
+                      "Select",
+                      "Sort items; use a registered item"
+                    ],
+                    [
+                      "L Button, R Button",
+                      "Activates the Help System"
+                    ]
+                  ]
+                }
+              ],
+              "tableFacts": [],
+              "rivalFacts": [],
+              "images": [],
+              "subsections": [
+                {
+                  "heading": "2F",
+                  "text": "The PC in the corner acts as both your item storage and Mailbox. The Bag has three pockets: one for Items, one for Key Items, and one for Poké Balls. Each pocket can hold up to 42 different items and up to 999 of each item. If a pocket becomes full, it would be necessary to use or discard some items before obtaining anything new. The PC can hold up to 30 different items from the Items pocket. Deposit Item and Withdraw Item allow for moving items between inventory and storage. It seems as though there is already an item in storage, so select Withdraw Item and choose the Potion to add it to your Bag. Press the B Button to close the menus and return to your bedroom. To save the game, press Start to open the main menu, select Save, and then Yes. When the menu disappears, your progress is saved and it is safe to exit the game.",
+                  "tables": [],
+                  "tableFacts": [],
+                  "rivalFacts": [],
+                  "images": [],
+                  "subsections": []
+                },
+                {
+                  "heading": "1F",
+                  "text": "Mom is sitting at the table, and tells you that Professor Oak has been looking for you. To leave the house, step on the floor mat along the south wall and press down on the +Control Pad.",
+                  "tables": [],
+                  "tableFacts": [],
+                  "rivalFacts": [],
+                  "images": [],
+                  "subsections": []
+                }
+              ]
+            },
+            {
+              "heading": "Oak Appears!",
+              "text": "Pallet Town has only a few places to explore, and Professor Oak is nowhere to be found. There is nothing else to do around here right now, so head for the tall grass on the north side of town. Suddenly, the professor appears! He scolds you for trying to venture off on your own, as it can be dangerous without a Pokémon of your own for defense against wild Pokémon.",
+              "tables": [],
+              "tableFacts": [],
+              "rivalFacts": [],
+              "images": [],
+              "subsections": []
+            },
+            {
+              "heading": "Professor Oak's Lab",
+              "text": "Oak leads you back to his lab where Blue is already waiting, and gives you the choice of your very first Pokémon. Each has its advantages and disadvantages, so simply choose the one that you like the best.",
+              "tables": [
+                {
+                  "rows": [
+                    [
+                      "",
+                      "Bulbasaur",
+                      "",
+                      "Charmander",
+                      "",
+                      "Squirtle"
+                    ],
+                    [
+                      "Type",
+                      "Grass/Poison",
+                      "",
+                      "Fire",
+                      "",
+                      "Water"
+                    ],
+                    [
+                      "Ability",
+                      "Overgrow",
+                      "",
+                      "Blaze",
+                      "",
+                      "Torrent"
+                    ]
+                  ]
+                }
+              ],
+              "tableFacts": [],
+              "rivalFacts": [],
+              "images": [],
+              "subsections": [
+                {
+                  "heading": "Rival Battle 1",
+                  "text": "As you and Blue face off, Professor Oak explains the basics. When battling, each Trainer sends out at least one Pokémon at a time; both of these Pokémon are on Level 5, indicated by the Lv5 aside each Pokémon. Below that is the health bar, which shows the Pokémon's remaining HP. A battle is won or lost when either side has no remaining Pokémon with the strength to continue. Beneath the health bar is a gauge that shows the amount of Experience Points needed for the Pokémon to grow to the next level. Choosing Fight will allow you to launch an attack against the target. Each of the professor's Pokémon have two moves. The first will damage the opponent, and the other will lower one of its stats. If your Pokémon's HP runs low, be sure to use that Potion from your PC. Go to Item to select the medicine and apply it to the Pokémon.",
+                  "tables": [],
+                  "tableFacts": [],
+                  "rivalFacts": [
+                    {
+                      "rival": "Blue",
+                      "level": 5,
+                      "reward": 80,
+                      "chosenPokemon": "Charmander",
+                      "type": "Fire"
+                    }
+                  ],
+                  "images": [],
+                  "subsections": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

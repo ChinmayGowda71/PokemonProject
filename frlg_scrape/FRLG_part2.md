@@ -44,7 +44,7 @@ _These pages follow the remade [Game Boy Advance](https://bulbapedia.bulbagarden
 
 [Route 1](https://bulbapedia.bulbagarden.net/wiki/Kanto_Route_1 "Kanto Route 1") is a peaceful, country road that leads north from [Pallet Town](https://bulbapedia.bulbagarden.net/wiki/Pallet_Town "Pallet Town") to [Viridian City](https://bulbapedia.bulbagarden.net/wiki/Viridian_City "Viridian City"). The path is riddled with patches of [tall grass](https://bulbapedia.bulbagarden.net/wiki/Tall_grass "Tall grass") and one-way [ledges](https://bulbapedia.bulbagarden.net/wiki/Ledge "Ledge") that make northward travel difficult. It is not yet possible to catch any of the wild Pokémon here, but it is still good to battle them to earn valuable [Experience Points](https://bulbapedia.bulbagarden.net/wiki/Experience "Experience").
 
-| [\[show\]](javascript:void(0);) Available Pokémon |
+| \[show\]Available Pokémon |
 | --- |
 | | Pokémon | Games | Location | Levels | Rate |
 | --- | --- | --- | --- | --- |
@@ -56,7 +56,7 @@ _These pages follow the remade [Game Boy Advance](https://bulbapedia.bulbagarden
 | [![Grass](https://archives.bulbagarden.net/media/upload/8/85/FRLG_Grass.png)](https://bulbapedia.bulbagarden.net/wiki/File:FRLG_Grass.png "Grass") | [Grass](https://bulbapedia.bulbagarden.net/wiki/Tall_grass "Tall grass") | | 2-4 | 50% |
 | **A colored background means that the Pokémon can be found in this location in the specified game. A white background with a colored letter means that the Pokémon cannot be found here.** | |
 
-| [\[show\]](javascript:void(0);) Items |
+| \[show\]Items |
 | --- |
 | | Item | Location | Games |
 | --- | --- | --- |
@@ -69,11 +69,11 @@ Speak to the man on the south side of the route, near the signpost. He works at 
 
 ## Viridian City
 
-[![](https://archives.bulbagarden.net/media/upload/thumb/9/9f/Viridian_City_FRLG.png/600px-Viridian_City_FRLG.png)](https://bulbapedia.bulbagarden.net/wiki/File:Viridian_City_FRLG.png) Viridian City
+[![](https://archives.bulbagarden.net/media/upload/thumb/9/9f/Viridian_City_FRLG.png/300px-Viridian_City_FRLG.png)](https://bulbapedia.bulbagarden.net/wiki/File:Viridian_City_FRLG.png) Viridian City
 
 [Viridian City](https://bulbapedia.bulbagarden.net/wiki/Viridian_City "Viridian City") is a small, nature-loving city that is enveloped in green year-round. It is located between [Route 1](https://bulbapedia.bulbagarden.net/wiki/Kanto_Route_1 "Kanto Route 1") to the south, [Route 2](https://bulbapedia.bulbagarden.net/wiki/Kanto_Route_2 "Kanto Route 2") to the north, and [Route 22](https://bulbapedia.bulbagarden.net/wiki/Kanto_Route_22 "Kanto Route 22") to the west.
 
-| [\[show\]](javascript:void(0);) Items |
+| \[show\]Items |
 | --- |
 | | Item | Location | Games |
 | --- | --- | --- |
@@ -149,7 +149,7 @@ At this point, you may proceed north to Route 2, or make an optional detour west
 
 It is not yet possible to fully explore [Route 22](https://bulbapedia.bulbagarden.net/wiki/Kanto_Route_22 "Kanto Route 22"), but you may still hunt for new Pokémon. A short way into the route, [Blue](https://bulbapedia.bulbagarden.net/wiki/Blue_(game) "Blue (game)") appears and challenges you to a battle.
 
-| [\[show\]](javascript:void(0);) Available Pokémon |
+| \[show\]Available Pokémon |
 | --- |
 | | Pokémon | Games | Location | Levels | Rate |
 | --- | --- | --- | --- | --- |
@@ -179,7 +179,7 @@ Little has changed since your fight in Oak's Lab, but he has since added a [Pidg
 | [FireRed and LeafGreen](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen_Versions "Pokémon FireRed and LeafGreen Versions") | |
 | Reward:<br> **[$](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Dollar "Pokémon Dollar") 144** | |     |
 | --- |
-| [![](https://archives.bulbagarden.net/media/upload/f/fa/Ballfull.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballfull.png)[![](https://archives.bulbagarden.net/media/upload/f/fa/Ballfull.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballfull.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png) | | | [\[show\]](javascript:void(0);) |
+| [![](https://archives.bulbagarden.net/media/upload/f/fa/Ballfull.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballfull.png)[![](https://archives.bulbagarden.net/media/upload/f/fa/Ballfull.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballfull.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png) | | | \[show\] |
 | |     |     |     |
 | --- | --- | --- |
 | |     |     |     |
@@ -303,7 +303,7 @@ Little has changed since your fight in Oak's Lab, but he has since added a [Pidg
 | [FireRed and LeafGreen](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen_Versions "Pokémon FireRed and LeafGreen Versions") | |
 | Reward:<br> **[$](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Dollar "Pokémon Dollar") 144** | |     |
 | --- |
-| [![](https://archives.bulbagarden.net/media/upload/f/fa/Ballfull.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballfull.png)[![](https://archives.bulbagarden.net/media/upload/f/fa/Ballfull.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballfull.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png) | | | [\[show\]](javascript:void(0);) |
+| [![](https://archives.bulbagarden.net/media/upload/f/fa/Ballfull.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballfull.png)[![](https://archives.bulbagarden.net/media/upload/f/fa/Ballfull.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballfull.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png) | | | \[show\] |
 | |     |     |     |
 | --- | --- | --- |
 | |     |     |     |
@@ -427,7 +427,7 @@ Little has changed since your fight in Oak's Lab, but he has since added a [Pidg
 | [FireRed and LeafGreen](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen_Versions "Pokémon FireRed and LeafGreen Versions") | |
 | Reward:<br> **[$](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Dollar "Pokémon Dollar") 144** | |     |
 | --- |
-| [![](https://archives.bulbagarden.net/media/upload/f/fa/Ballfull.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballfull.png)[![](https://archives.bulbagarden.net/media/upload/f/fa/Ballfull.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballfull.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png) | | | [\[show\]](javascript:void(0);) |
+| [![](https://archives.bulbagarden.net/media/upload/f/fa/Ballfull.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballfull.png)[![](https://archives.bulbagarden.net/media/upload/f/fa/Ballfull.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballfull.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png)[![](https://archives.bulbagarden.net/media/upload/7/7e/Ballempty.png)](https://bulbapedia.bulbagarden.net/wiki/File:Ballempty.png) | | | \[show\] |
 | |     |     |     |
 | --- | --- | --- |
 | |     |     |     |
@@ -546,11 +546,11 @@ If you managed to defeat Blue before catching any Pokémon and have no Poké Bal
 
 ## Route 2 (West)
 
-[![](https://archives.bulbagarden.net/media/upload/thumb/2/26/Kanto_Route_2_FRLG.png/200px-Kanto_Route_2_FRLG.png)](https://bulbapedia.bulbagarden.net/wiki/File:Kanto_Route_2_FRLG.png) Route 2
+[![](https://archives.bulbagarden.net/media/upload/thumb/2/26/Kanto_Route_2_FRLG.png/100px-Kanto_Route_2_FRLG.png)](https://bulbapedia.bulbagarden.net/wiki/File:Kanto_Route_2_FRLG.png) Route 2
 
 [Route 2](https://bulbapedia.bulbagarden.net/wiki/Kanto_Route_2 "Kanto Route 2") runs northward from [Viridian City](https://bulbapedia.bulbagarden.net/wiki/Viridian_City "Viridian City") to [Pewter City](https://bulbapedia.bulbagarden.net/wiki/Pewter_City "Pewter City"). Much of the route's west side is occupied by a large maze of trees known as [Viridian Forest](https://bulbapedia.bulbagarden.net/wiki/Viridian_Forest "Viridian Forest"). [Overgrown trees](https://bulbapedia.bulbagarden.net/wiki/Cut_(move) "Cut (move)") block access to the east side for now. Head through the [gate](https://bulbapedia.bulbagarden.net/wiki/Gate "Gate") to enter the forest, a whole new area with new Pokémon to catch!
 
-| [\[show\]](javascript:void(0);) Available Pokémon |
+| \[show\]Available Pokémon |
 | --- |
 | | Pokémon | Games | Location | Levels | Rate |
 | --- | --- | --- | --- | --- |
@@ -588,7 +588,7 @@ If you managed to defeat Blue before catching any Pokémon and have no Poké Bal
 
 |     |     |
 | --- | --- |
-| [![](https://archives.bulbagarden.net/media/upload/thumb/8/82/Project_Walkthroughs_logo.png/160px-Project_Walkthroughs_logo.png)](https://bulbapedia.bulbagarden.net/wiki/File:Project_Walkthroughs_logo.png) | This article is part of **[Project Walkthroughs](https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Walkthroughs "Bulbapedia:Project Walkthroughs")**, a [Bulbapedia project](https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects "Bulbapedia:Projects") that aims to write comprehensive step-by-step guides on each [Pokémon game](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_games "Pokémon games"). |
+| [![](https://archives.bulbagarden.net/media/upload/thumb/8/82/Project_Walkthroughs_logo.png/80px-Project_Walkthroughs_logo.png)](https://bulbapedia.bulbagarden.net/wiki/File:Project_Walkthroughs_logo.png) | This article is part of **[Project Walkthroughs](https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Project_Walkthroughs "Bulbapedia:Project Walkthroughs")**, a [Bulbapedia project](https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Projects "Bulbapedia:Projects") that aims to write comprehensive step-by-step guides on each [Pokémon game](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_games "Pokémon games"). |
 
 Retrieved from " [https://bulbapedia.bulbagarden.net/w/index.php?title=Walkthrough:Pokémon\_FireRed\_and\_LeafGreen/Part\_2&oldid=4246315](https://bulbapedia.bulbagarden.net/w/index.php?title=Walkthrough:Pok%C3%A9mon_FireRed_and_LeafGreen/Part_2&oldid=4246315)"
 
@@ -612,7 +612,7 @@ Retrieved from " [https://bulbapedia.bulbagarden.net/w/index.php?title=Walkthrou
 - [Related changes](https://bulbapedia.bulbagarden.net/wiki/Special:RecentChangesLinked/Walkthrough:Pok%C3%A9mon_FireRed_and_LeafGreen/Part_2 "Recent changes in pages linked from this page [alt-shift-k]")
 - [Upload file](https://archives.bulbagarden.net/wiki/Special:Upload "Upload files [alt-shift-u]")
 - [Special pages](https://bulbapedia.bulbagarden.net/wiki/Special:SpecialPages "A list of all special pages [alt-shift-q]")
-- [Printable version](javascript:print(); "Printable version of this page [alt-shift-p]")
+- Printable version
 - [Permanent link](https://bulbapedia.bulbagarden.net/w/index.php?title=Walkthrough:Pok%C3%A9mon_FireRed_and_LeafGreen/Part_2&oldid=4246315 "Permanent link to this revision of this page")
 - [Page information](https://bulbapedia.bulbagarden.net/w/index.php?title=Walkthrough:Pok%C3%A9mon_FireRed_and_LeafGreen/Part_2&action=info "More information about this page")
 

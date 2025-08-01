@@ -1,21 +1,16 @@
-import os, json, textwrap
+import os, json, textwrap, sys
 from pathlib import Path
 from dotenv import load_dotenv
 from openai import OpenAI
-import time
-# ------------------------------------------------------------------
-# 1.  Load API key & client
-# ------------------------------------------------------------------
-load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-if not OPENAI_API_KEY:
-    raise RuntimeError("Set OPENAI_API_KEY in .env or environment")
-client = OpenAI(api_key=OPENAI_API_KEY)
+import tiktoken
+# ------------------------------ CONFIG --------------------------------
+MD_PATH      = Path("frlg_scrape/FRLG_part15.md")   #  <—  set the file here
+MODEL        = "gpt-4o-mini"                        #  or "gpt-3.5-turbo-0125"
+MAX_CHARS    = 15000                            #  ~30 k tokens; adjust if needed
+OUTPUT_FILE  = MD_PATH.with_suffix(".json")         # saved alongside .md
+# ----------------------------------------------------------------------
 
-# ------------------------------------------------------------------
-# 2.  Read Firecrawl Markdown (produced by previous script)
-# ------------------------------------------------------------------
-EXTRACT_PROMPT =  textwrap.dedent("""
+PROMPT = textwrap.dedent("""
 
 You are a parser. You are given cleaned Markdown of a Bulbapedia page and you need to extract the data from the page.
 You are a parser. Return ONLY valid JSON matching this schema:
@@ -74,43 +69,41 @@ Heading Formatting Guidelines:
 * Temperature 0. Return nothing but JSON.
 """).strip()
 
+# ----------------------------- OPENAI ---------------------------------
+load_dotenv()
+client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
-def clean_markdown(markdown_text) -> dict:
-  response = client.chat.completions.create(
-      model="gpt-4o-mini",        # or "gpt-4o" / "gpt-3.5-turbo-0125"
-      temperature=0,
-      response_format={ "type": "json_object" },
-      messages=[
-          { "role": "system", "content": EXTRACT_PROMPT },
-          { "role": "user",   "content": markdown_text } 
-      ]
-  )
+def gpt_parse(md_text:str)->dict:
+    resp = client.chat.completions.create(
+        model=MODEL,
+        temperature=0,
+        response_format={"type":"json_object"},
+        messages=[
+            {"role":"system","content":PROMPT},
+            {"role":"user","content": md_text[:MAX_CHARS]}
+        ]
+    )
+    return json.loads(resp.choices[0].message.content)
 
-  return json.loads(response.choices[0].message.content)
-  
-def process_folder(in_dir: Path, out_dir: Path):
-    out_dir.mkdir(parents=True, exist_ok=True)
-    for md_file in in_dir.rglob("*.md"):
-        rel      = md_file.relative_to(in_dir)
-        out_file = out_dir / rel.with_suffix(".json")
-        out_file.parent.mkdir(parents=True, exist_ok=True)
+# ---------------------- (optional) chunk helper -----------------------
+def parse_with_chunks(md_text:str)->dict:
+    parts = [md_text[i:i+MAX_CHARS] for i in range(0,len(md_text),MAX_CHARS)]
+    merged = {"sections":[]}
+    for i,part in enumerate(parts,1):
+        print(f"⚙️  chunk {i}/{len(parts)}")
+        out = gpt_parse(part)
+        merged["sections"].extend(out["sections"])
+    return merged
+# ----------------------------------------------------------------------
 
-        print(f"📝 {md_file}  →  {out_file}")
-        try:
-            md  = md_file.read_text(encoding="utf-8")
-            js  = clean_markdown(md)
-            out_file.write_text(json.dumps(js, indent=2, ensure_ascii=False), "utf-8")
-            time.sleep(6)
-        except Exception as e:
-            print("   ❌", e)
+if not MD_PATH.exists():
+    sys.exit(f"Markdown file not found: {MD_PATH}")
 
-# ------------------------------------------------------------------#
-# 5.  Run
-# ------------------------------------------------------------------#
-# Example: convert all Markdown files under "frlg_scrape" into "frlg_json"
-process_folder(Path("frlg_scrape"), Path("frlg_json"))
+md = MD_PATH.read_text("utf-8")
+print("Chars in MD:", len(md))
 
+# ---- choose single call or chunked ----
+result = gpt_parse(md) if len(md) <= MAX_CHARS else parse_with_chunks(md)
 
-
-
-
+OUTPUT_FILE.write_text(json.dumps(result, indent=2, ensure_ascii=False), "utf-8")
+print("✅ Saved JSON →", OUTPUT_FILE)

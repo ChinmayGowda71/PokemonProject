@@ -1,0 +1,175 @@
+{
+  "sections": [
+    {
+      "heading": "Walkthrough:Pokémon FireRed and LeafGreen/Part 15",
+      "text": "This is the Bulbapedia walkthrough for Pokémon FireRed and LeafGreen. These pages follow the remade Game Boy Advance iteration, not Pokémon Red and Blue. The guide for those games can be found here.",
+      "tables": [],
+      "tableFacts": [],
+      "rivalFacts": [],
+      "images": [],
+      "subsections": [
+        {
+          "heading": "Route 21",
+          "text": "Route 21 is an ocean route that leads from Cinnabar Island back to Pallet Town. A single patch of tall grass grows just outside of town.",
+          "tables": [
+            {
+              "rows": [
+                [
+                  "Trainer",
+                  "Pokémon"
+                ],
+                [
+                  "Fisherman Wade",
+                  "Magikarp ♂ Lv.27"
+                ],
+                [
+                  "Fisherman Ronald",
+                  "Seaking ♂ Lv.28"
+                ],
+                [
+                  "Sis and Bro Lil & Ian",
+                  "Seadra ♂ Lv.33, Starmie Lv.33"
+                ],
+                [
+                  "Swimmer♂ Spencer",
+                  "Seadra ♂ Lv.33"
+                ],
+                [
+                  "Fisherman Claude",
+                  "Shellder ♂ Lv.31, Cloyster ♂ Lv.31"
+                ],
+                [
+                  "Fisherman Nolan",
+                  "Seaking ♂ Lv.33, Goldeen ♂ Lv.33"
+                ],
+                [
+                  "Swimmer♂ Jack",
+                  "Starmie Lv.37"
+                ],
+                [
+                  "Swimmer♂ Roland",
+                  "Poliwhirl ♂ Lv.32, Tentacool ♂ Lv.32"
+                ],
+                [
+                  "Swimmer♂ Jerome",
+                  "Staryu Lv.33, Wartortle ♂ Lv.33"
+                ]
+              ]
+            }
+          ],
+          "tableFacts": [
+            "Fisherman Wade has a Magikarp at level 27.",
+            "Fisherman Ronald has a Seaking at level 28.",
+            "Sis and Bro Lil & Ian have a Seadra at level 33 and a Starmie at level 33.",
+            "Swimmer♂ Spencer has a Seadra at level 33.",
+            "Fisherman Claude has a Shellder at level 31 and a Cloyster at level 31.",
+            "Fisherman Nolan has a Seaking at level 33 and a Goldeen at level 33.",
+            "Swimmer♂ Jack has a Starmie at level 37.",
+            "Swimmer♂ Roland has a Poliwhirl at level 32 and a Tentacool at level 32.",
+            "Swimmer♂ Jerome has a Staryu at level 33 and a Wartortle at level 33."
+          ],
+          "rivalFacts": [],
+          "images": [
+            {
+              "src": "https://archives.bulbagarden.net/media/upload/thumb/3/3b/Kanto_Route_21_FRLG.png/100px-Kanto_Route_21_FRLG.png",
+              "alt": "Route 21"
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Pallet Town",
+          "text": "Having now explored nearly all of the Kanto region, it is a good time to tie up any loose ends, the most important of which is the Power Plant. To get there, fly back to Route 10.",
+          "tables": [],
+          "tableFacts": [],
+          "rivalFacts": [],
+          "images": [],
+          "subsections": []
+        },
+        {
+          "heading": "Route 10",
+          "text": "To reach the Power Plant, use Surf to follow the river southward past the Rock Tunnel entrance. It is only a short distance away, with a single PokéManiac outside the building.",
+          "tables": [
+            {
+              "rows": [
+                [
+                  "Trainer",
+                  "Pokémon"
+                ],
+                [
+                  "PokéManiac Mark",
+                  "Rhyhorn ♂ Lv.29, Lickitung ♂ Lv.29"
+                ]
+              ]
+            }
+          ],
+          "tableFacts": [
+            "PokéManiac Mark has a Rhyhorn at level 29 and a Lickitung at level 29."
+          ],
+          "rivalFacts": [],
+          "images": [],
+          "subsections": []
+        },
+        {
+          "heading": "Viridian City",
+          "text": "",
+          "tables": [],
+          "tableFacts": [],
+          "rivalFacts": [],
+          "images": [],
+          "subsections": [
+            {
+              "heading": "Viridian Gym",
+              "text": "The Viridian Gym specializes in Ground-type Pokémon. Grass-, Water-, and Ice-type attacks will be the most useful. Flying-type Pokémon are immune to Ground attacks and Flying moves will deal serious damage to the several Fighting Pokémon inside.",
+              "tables": [
+                {
+                  "rows": [
+                    [
+                      "Trainer",
+                      "Pokémon"
+                    ],
+                    [
+                      "Tamer Cole",
+                      "Arbok ♂ Lv.39"
+                    ],
+                    [
+                      "Black Belt Kiyo",
+                      "Machoke ♂ Lv.43"
+                    ],
+                    [
+                      "Cooltrainer Samuel",
+                      "Sandslash ♂ Lv.37"
+                    ],
+                    [
+                      "Cooltrainer Yuji",
+                      "Sandslash ♂ Lv.38"
+                    ],
+                    [
+                      "Black Belt Takashi",
+                      "Machoke ♂ Lv.38"
+                    ]
+                  ]
+                }
+              ],
+              "tableFacts": [
+                "Tamer Cole has an Arbok at level 39.",
+                "Black Belt Kiyo has a Machoke at level 43.",
+                "Cooltrainer Samuel has a Sandslash at level 37.",
+                "Cooltrainer Yuji has a Sandslash at level 38.",
+                "Black Belt Takashi has a Machoke at level 38."
+              ],
+              "rivalFacts": [],
+              "images": [
+                {
+                  "src": "https://archives.bulbagarden.net/media/upload/thumb/2/25/Viridian_Gym_FRLG.png/300px-Viridian_Gym_FRLG.png",
+                  "alt": "Viridian Gym"
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
