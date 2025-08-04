@@ -195,30 +195,23 @@
         }
       },
       {
-          "type": "table",
-          "data": {
-            "headers": [
-              "Pokémon",
-              "Games",
-              "Location",
-              "Levels",
-              "Rate"
+        "type": "table",
+        "data": {
+          "headers": [
+            "Pokémon",
+            "Games",
+            "Location",
+            "Levels",
+            "Rate"
+          ],
+          "rows": [
+            [
+              "Tangela",
+              "FR/LG",
+              "Grass",
+              "17-28",
+              "100%"
             ],
-            "rows": [
-              [
-                "Pokémon",
-                "",
-                "Location",
-                "",
-                ""
-              ],
-              [
-                "Tangela",
-                "FR/LG",
-                "Grass",
-                "17-28",
-                "100%"
-              ],
             [
               "Tentacool",
               "FR/LG",
@@ -412,13 +405,6 @@
           ],
           "rows": [
             [
-              "Pokémon",
-              "",
-              "Location",
-              "",
-              ""
-            ],
-            [
               "Tentacool",
               "FR/LG",
               "Surfing",
@@ -559,13 +545,6 @@
                 "Rate"
               ],
               "rows": [
-                [
-                  "Pokémon",
-                  "",
-                  "Location",
-                  "",
-                  ""
-                ],
                 [
                   "Magnemite",
                   "FR/LG",
@@ -807,6 +786,264 @@
           {
             "type": "paragraph",
             "text": "Like the Rocket Hideout in Celadon City , the Viridian Gym also employs spinner tiles to confuse and disorient any challengers. Go north through the center room. Battle Ace Trainer Warren and Black Belt Takashi, so that Takashi walks away from the north wall. Return to the entrance and follow the spinner tiles north and west to reach the Gym Leader."
+          },
+          {
+            "type": "gym_battle",
+            "data": {
+              "leader": {
+                "name": "Giovanni",
+                "role": "Leader",
+                "gym": "Viridian Gym",
+                "games": "FireRed and LeafGreen",
+                "reward": "5000",
+                "portrait": "https://archives.bulbagarden.net/media/upload/4/41/Spr_FRLG_Giovanni.png",
+                "balls": 5
+              },
+              "party": [
+                {
+                  "sprite": "https://archives.bulbagarden.net/media/upload/a/a1/Spr_3f_111.png",
+                  "name": "Rhyhorn",
+                  "level": "45",
+                  "types": [
+                    "Ground",
+                    "Rock"
+                  ],
+                  "ability": "Lightningrod",
+                  "item": "None",
+                  "moves": [
+                    {
+                      "name": "Take Down Normal -- Rock Blast Rock --",
+                      "type": "Scary Face Normal -- Earthquake Ground --"
+                    },
+                    {
+                      "name": "Take Down",
+                      "type": "Normal"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    },
+                    {
+                      "name": "Rock Blast",
+                      "type": "Rock"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    },
+                    {
+                      "name": "Scary Face",
+                      "type": "Normal"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    },
+                    {
+                      "name": "Earthquake",
+                      "type": "Ground"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    }
+                  ]
+                },
+                {
+                  "sprite": "https://archives.bulbagarden.net/media/upload/9/99/Spr_3f_051.png",
+                  "name": "Dugtrio",
+                  "level": "42",
+                  "types": [],
+                  "ability": "Sand Veil",
+                  "item": "None",
+                  "moves": [
+                    {
+                      "name": "Slash Normal -- Sand Tomb Ground --",
+                      "type": "Mud-Slap Ground -- Earthquake Ground --"
+                    },
+                    {
+                      "name": "Slash",
+                      "type": "Normal"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    },
+                    {
+                      "name": "Sand Tomb",
+                      "type": "Ground"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    },
+                    {
+                      "name": "Mud-Slap",
+                      "type": "Ground"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    },
+                    {
+                      "name": "Earthquake",
+                      "type": "Ground"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    }
+                  ]
+                },
+                {
+                  "sprite": "https://archives.bulbagarden.net/media/upload/7/79/Spr_3f_031.png",
+                  "name": "Nidoqueen",
+                  "level": "44",
+                  "types": [
+                    "Poison",
+                    "Ground"
+                  ],
+                  "ability": "Poison Point",
+                  "item": "None",
+                  "moves": [
+                    {
+                      "name": "Double Kick Fighting -- Earthquake Ground --",
+                      "type": "Poison Sting Poison -- Body Slam Normal --"
+                    },
+                    {
+                      "name": "Double Kick",
+                      "type": "Fighting"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    },
+                    {
+                      "name": "Earthquake",
+                      "type": "Ground"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    },
+                    {
+                      "name": "Poison Sting",
+                      "type": "Poison"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    },
+                    {
+                      "name": "Body Slam",
+                      "type": "Normal"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    }
+                  ]
+                },
+                {
+                  "sprite": "https://archives.bulbagarden.net/media/upload/5/5d/Spr_3f_034.png",
+                  "name": "Nidoking",
+                  "level": "45",
+                  "types": [
+                    "Poison",
+                    "Ground"
+                  ],
+                  "ability": "Poison Point",
+                  "item": "None",
+                  "moves": [
+                    {
+                      "name": "Double Kick Fighting -- Earthquake Ground --",
+                      "type": "Poison Sting Poison -- Thrash Normal --"
+                    },
+                    {
+                      "name": "Double Kick",
+                      "type": "Fighting"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    },
+                    {
+                      "name": "Earthquake",
+                      "type": "Ground"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    },
+                    {
+                      "name": "Poison Sting",
+                      "type": "Poison"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    },
+                    {
+                      "name": "Thrash",
+                      "type": "Normal"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    }
+                  ]
+                },
+                {
+                  "sprite": "https://archives.bulbagarden.net/media/upload/a/a1/Spr_3f_111.png",
+                  "name": "Rhyhorn",
+                  "level": "50",
+                  "types": [
+                    "Ground",
+                    "Rock"
+                  ],
+                  "ability": "Lightningrod",
+                  "item": "None",
+                  "moves": [
+                    {
+                      "name": "Take Down Normal -- Rock Blast Rock --",
+                      "type": "Scary Face Normal -- Earthquake Ground --"
+                    },
+                    {
+                      "name": "Take Down",
+                      "type": "Normal"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    },
+                    {
+                      "name": "Rock Blast",
+                      "type": "Rock"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    },
+                    {
+                      "name": "Scary Face",
+                      "type": "Normal"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    },
+                    {
+                      "name": "Earthquake",
+                      "type": "Ground"
+                    },
+                    {
+                      "name": "--",
+                      "type": ""
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "type": "table",
