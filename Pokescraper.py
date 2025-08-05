@@ -28,6 +28,14 @@ def is_gym_leader_href(href: str) -> bool:
     # match absolute or relative
     return '/wiki/gym_leader' in h.split('#')[0].split('?')[0]
 
+
+def is_rival_href(href: str) -> bool:
+    if not href:
+        return False
+    h = href.strip().lower()
+    h = re.sub(r'^https?:', '', h)  # strip scheme if present
+    return '/wiki/rival' in h.split('#')[0].split('?')[0]
+
 def _closest_expandable_table(node: Tag) -> Tag | None:
     """Climb from a node to the nearest <table class='expandable'>, else nearest <table>."""
     if not isinstance(node, Tag):
@@ -45,52 +53,6 @@ def closest_expandable_wrapper(node: Tag) -> Tag | None:
     if t:
         return t
     return node.find_parent('table')
-
-def _extract_moves(card_tbl, return_compact=False, sep=', '):
-    """
-    Extract moves from a per-Pokémon card table.
-    - Skips hidden tables (style contains display:none).
-    - Skips placeholders like '--'.
-    - Dedupes by (name, type) preserving order.
-    - If return_compact=True, returns one element:
-        [{'name': 'Move1 Move2', 'type': 'Type1 Type2'}]
-      else: [{'name': name, 'type': type}, ...]
-    """
-    seen = set()
-    moves = []
-
-    for mt in card_tbl.find_all('table', class_='roundy'):
-        style = (mt.get('style') or '').lower().replace(' ', '')
-        if 'display:none' in style:
-            continue
-
-        m_rows = table_rows(mt)
-        if len(m_rows) < 2:
-            continue
-
-        name_txt = norm_text(m_rows[0])
-        if not name_txt or name_txt.strip() in ('--', '\xa0'):
-            continue
-
-        # Prefer an <a> link on the 2nd row for the move type
-        type_cell = m_rows[1]
-        type_link = type_cell.find('a')
-        type_txt = norm_text(type_link) if type_link else norm_text(type_cell)
-        type_txt = type_txt.strip()
-
-        key = (name_txt, type_txt)
-        if key in seen:
-            continue
-        seen.add(key)
-
-        moves.append({'name': name_txt, 'type': type_txt})
-
-    if return_compact:
-        names = sep.join(m['name'] for m in moves)
-        types = sep.join(m['type'] for m in moves)
-        return [{'name': names, 'type': types}]
-
-    return moves
 
 def row_cells(tr):
     """
@@ -245,56 +207,76 @@ def _extract_pokemon_name_from_left(cell):
         return norm_text(c[1])
     return norm_text(cell)
 
-def _extract_games_tokens(cells):
-    """Find FR/LG tokens among a few adjacent cells."""
+WHITE_TOKENS = {'#fff', '#ffffff', 'white', 'transparent'}
+
+def _bg_is_white(cell):
+    """Return True if the cell's background is white/transparent."""
+    style = (cell.get('style') or '').lower()
+    m = re.search(r'background\s*:\s*([^;]+)', style)
+    if not m:
+        return False                # no background => treat as non-white
+    bg = m.group(1).strip()
+    return bg in WHITE_TOKENS
+
+def _is_white_bg(tag):
+    style = (tag.get('style') or '').lower()
+    return '#fff' in style or 'white' in style
+
+def _extract_games_tokens_bg(cells):
     tokens = []
     for c in cells:
-        t = norm_text(c)
-        for p in re.split(r'\W+', t):
-            if p in ('FR', 'LG') and p not in tokens:
-                tokens.append(p)
+        txt = norm_text(c).upper()
+        if ('FR' in txt or 'LG' in txt) and not _is_white_bg(c):
+            if 'FR' in txt and 'FR' not in tokens:
+                tokens.append('FR')
+            if 'LG' in txt and 'LG' not in tokens:
+                tokens.append('LG')
+    return '/'.join(tokens)
+
+def _extract_games_tokens(cells):
+    """
+    Return 'FR/LG' or 'FR' or 'LG' depending on which game cells
+    have a non-white background.
+    """
+    tokens = []
+    for c in cells:
+        # Look for FR or LG text in the cell
+        text = norm_text(c)
+        for tok in re.split(r'\W+', text):
+            if tok in ('FR', 'LG'):
+                if not _bg_is_white(c) and tok not in tokens:
+                    tokens.append(tok)
     return '/'.join(tokens) if tokens else ''
 
-
-def parse_available_pokemon_table(wrapper):
-    """Return {'headers': ['Pokémon','Games','Location','Levels','Rate'], 'rows': [...]}."""
-    tbl = unwrap_inner_data_table(wrapper)
-    rows = table_rows(tbl)
-    if not rows:
-        return {'headers': [], 'rows': []}
-
-    headers = ['Pokémon', 'Games', 'Location', 'Levels', 'Rate']
-    out = []
-    current_section = None  # e.g., 'Walking', 'Surfing', 'Fishing' (optional)
-
-    for tr in rows:
+def _emit_available_rows(inner_tbl, section_label, rows_out):
+    for tr in table_rows(inner_tbl):
         cells = row_cells(tr)
         if not cells:
             continue
 
-        # Section banner: single <th colspan="...">Walking/Surfing/Fishing/...
+        # Skip in-table banners like "Surfing", "Fishing"
         if len(cells) == 1 and cells[0].name == 'th' and cells[0].has_attr('colspan'):
-            current_section = norm_text(cells[0])
             continue
 
-        # Data row: extract fields robustly
         name = _extract_pokemon_name_from_left(cells[0])
+        if not name:   # guard against stray layout rows
+            continue
 
-        games = _extract_games_tokens(cells[1:6])  # scan a small window for FR/LG
+        games = _extract_games_tokens_bg(cells[1:8])
 
-        # Location: nested tiny table with icon + text (Grass/Surfing/etc.)
+        # Location: tiny nested table (Grass/Surfing/Cave/Rock Smash/Walking…)
         location = ''
         for c in cells:
             loc_tbl = c.find('table')
             if loc_tbl:
                 t = norm_text(loc_tbl)
-                if any(key in t for key in ('Grass', 'Surf', 'Surfing', 'Cave', 'Fishing', 'Walking')):
+                if any(k in t for k in ('Grass','Surf','Surfing','Cave','Fishing','Walking','Rock Smash')):
                     location = t
                     break
         if not location and len(cells) >= 3:
-            location = norm_text(cells[-3])  # heuristic fallback
+            location = norm_text(cells[-3])
 
-        # Levels: first cell that looks like a level/range
+        # Levels
         levels = ''
         for c in cells:
             t = norm_text(c)
@@ -302,7 +284,7 @@ def parse_available_pokemon_table(wrapper):
                 levels = t.replace('Lv. ', '').replace('Lv.', '')
                 break
 
-        # Rate: last cell that has a percentage
+        # Rate
         rate = ''
         for c in reversed(cells):
             t = norm_text(c)
@@ -310,19 +292,67 @@ def parse_available_pokemon_table(wrapper):
                 rate = t
                 break
 
-        out.append([name, games, location, levels, rate])
-    
-    def is_sparse_fake_header(row, headers):
-        normalized = [normalize(cell) for cell in row]
-        nonempty = [(i, val) for i, val in enumerate(normalized) if val]
-        if len(nonempty) < 3:
-            # If all non-empty cells match expected header names at those positions
-            return all(headers[i].lower() == val for i, val in nonempty)
-        return False
-    if out and is_sparse_fake_header(out[0], headers):
-        print("Removing fake header row:", out[0])
-        out = out[1:]
-    return {'headers': headers, 'rows': out}
+        rows_out.append([name, games, location, levels, rate, section_label])
+
+
+def parse_available_pokemon_table(wrapper, parent_section):
+    """
+    Emits rows with Section set to the immediate sub-area (e.g., '1F', 'Back Cave').
+    If there are no sub-areas, Section falls back to the enclosing header (e.g., 'Four Island (Town)').
+    """
+    headers = ['Pokémon', 'Games', 'Location', 'Levels', 'Rate', 'Section']
+    rows_out = []
+
+    # Helper: get wrapper title once
+    title = (get_table_title(wrapper) or '').strip()
+    title_lc = title.lower()
+
+    # Find all collapsible headers inside this wrapper
+    all_heads = wrapper.find_all('tr', id=re.compile(r'^collapsible-section_'))
+
+    # Keep only sub-headers that are NOT the wrapper's own "Available Pokémon" title
+    sub_heads = []
+    for h in all_heads:
+        th = h.find('th')
+        ht = norm_text(th).strip().lower() if th else ''
+        if ht and ht not in ('available pokémon', 'available pokemon'):
+            sub_heads.append(h)
+
+    if len(sub_heads) >= 1:
+        # Multi-subtable mode: each sub-head (e.g., "1F", "Back Cave")
+        for head in sub_heads:
+            section_label = norm_text(head.find('th'))  # e.g., "1F", "Back Cave"
+            hidden = head.find_next_sibling('tr')
+            if not (hidden and hidden.has_attr('style') and 'display' in hidden['style']):
+                continue
+            inner_tbl = hidden.find('table', class_='roundy') or hidden.find('table')
+            if inner_tbl:
+                _emit_available_rows(inner_tbl, section_label, rows_out)
+    else:
+        # Single-table mode:
+        # If the wrapper's title is literally "Available Pokémon", use the parent/enclosing section.
+        # Otherwise (e.g., "Ruby Path, 1F") use that as the Section.
+        if title and title_lc not in ('available pokémon', 'available pokemon'):
+            section_label = title
+        else:
+            section_label = parent_section or enclosing_section_title(wrapper)
+
+        inner_tbl = unwrap_inner_data_table(wrapper)
+        if inner_tbl:
+            _emit_available_rows(inner_tbl, section_label, rows_out)
+
+    # Strip junk rows (fake header / legend)
+    clean = []
+    for r in rows_out:
+        first = (r[0] or '').strip().lower()
+        if first == 'pokémon':  # fake top header row
+            continue
+        if 'colored background means' in first:  # legend row
+            continue
+        clean.append(r)
+
+    return {'headers': headers, 'rows': clean}
+
 
 
 
@@ -428,6 +458,48 @@ def download_image(src, output_dir):
     return path
 
 
+def _inner_avail_rows(inner_tbl):
+    """Return a list of rows [['Pokémon','FR/LG',...], …] from ONE roundy table."""
+    rows = []
+    for tr in table_rows(inner_tbl):
+        cells = row_cells(tr)
+        if not cells:
+            continue
+        # banner rows like <th colspan="15">Surfing</th>
+        if len(cells) == 1 and cells[0].name == 'th' and cells[0].has_attr('colspan'):
+            # keep or ignore – here we ignore, but you could store as current_sublocation
+            continue
+
+        name   = _extract_pokemon_name_from_left(cells[0])
+        games  = _extract_games_tokens(cells[1:8])          # background-aware helper
+        loc    = ''
+        for c in cells:
+            loc_tbl = c.find('table')
+            if loc_tbl:
+                t = norm_text(loc_tbl)
+                if any(k in t for k in ('Grass','Surf','Cave','Fishing','Walking')):
+                    loc = t; break
+        if not loc and len(cells) >= 3:
+            loc = norm_text(cells[-3])
+
+        lvl    = ''
+        for c in cells:
+            t = norm_text(c)
+            if re.search(r'\d', t) and any(s in t for s in ('-',',','Lv','level')):
+                lvl = t.replace('Lv.','').replace('Lv. ',''); break
+
+        rate   = ''
+        for c in reversed(cells):
+            t = norm_text(c)
+            if '%' in t:
+                rate = t; break
+
+        rows.append([name, games, loc, lvl, rate])
+    return rows
+
+def _subsection_label(th):
+    """Return '1F', 'Back Cave', etc. from the header <th> that precedes the hidden rows."""
+    return norm_text(th).rstrip(':')   # remove trailing ':' if any
 
 
 def parse_gym_leader_block(wrapper: Tag) -> dict:
@@ -635,12 +707,90 @@ def _find_labeled_table(scope: Tag, label: str) -> Tag | None:
                 return t
     return None
 
+def parse_rival_block(wrapper):
+    """Extract Rival card + party (can be single or multiple variants)."""
+    rival = {'name': '', 'role': 'Rival', 'location': '', 'games': '', 'reward': '', 'portrait': '', 'balls': 0}
+    variants = []  # some rival blocks show multiple teams (based on starter etc.)
 
+    # Find the small info table that contains the Rival anchor
+    a = wrapper.find('a', href=lambda h: is_rival_href(h))
+    info_tbl = a.find_parent('table') if a else None
+    if info_tbl:
+        # portrait is usually in a <th> just before the info table
+        th = info_tbl.find_previous('th')
+        if th:
+            img = th.find('img')
+            if img and img.get('src'):
+                rival['portrait'] = img['src']
+
+        # parse name/location/games from the info table rows
+        for tr in table_rows(info_tbl):
+            t = norm_text(tr)
+            if not t:
+                continue
+            if not rival['name'] and tr.find('big'):
+                rival['name'] = norm_text(tr)              # e.g., "Blue"
+            elif not rival['location'] and any(k in t for k in ('Route', 'Gym', 'Laboratory', 'Center', 'City', 'Town')):
+                rival['location'] = t                      # e.g., "Professor Oak's Laboratory"
+            elif not rival['games'] and any(k in t for k in ('FireRed', 'LeafGreen', 'Red', 'Blue', 'Yellow', 'Gold', 'Silver', 'Crystal', 'Emerald')):
+                rival['games'] = t
+
+    # Reward + ball count anywhere under wrapper
+    full_text = wrapper.get_text(' ', strip=True)
+    m = re.search(r'Reward:\s*\$?\s*([0-9,]+)', full_text)
+    if m:
+        rival['reward'] = m.group(1).replace(',', '')
+    rival['balls'] = len(wrapper.find_all('img', src=lambda s: s and 'Ballfull.png' in s))
+
+    # Hidden rows contain the party (sometimes multiple variants)
+    hidden_rows = wrapper.find_all(lambda tag: tag.name == 'tr' and tag.has_attr('style') and 'display' in tag['style'])
+    for hidden in hidden_rows:
+        # Try to find a condition label like "If you chose Bulbasaur ..." near this hidden block
+        # (Bulbapedia sometimes puts these in a preceding <th> or sibling cell)
+        label = ''
+        prev_th = hidden.find_previous('th')
+        if prev_th:
+            label = norm_text(prev_th)
+        if not label:
+            prev_td = hidden.find_previous('td')
+            if prev_td:
+                label = norm_text(prev_td)
+
+        condition = ''
+        m = re.search(r'(Bulbasaur|Charmander|Squirtle)', label, flags=re.I)
+        if m:
+            # store what the party corresponds to; adapt to your preferred phrasing
+            condition = f'player_starter={m.group(1).capitalize()}'
+
+        party = _extract_party_from_container(hidden)  # reuse your gym helper
+        if party:
+            variants.append({'condition': condition, 'party': party})
+
+    # Fallback: if no variants found, try flattening all hidden content into one party
+    if not variants:
+        all_party = []
+        seen = set()
+        for hidden in hidden_rows:
+            for mon in _extract_party_from_container(hidden):
+                key = (mon.get('name',''), mon.get('level',''))
+                if key in seen:
+                    continue
+                seen.add(key)
+                all_party.append(mon)
+        if all_party:
+            variants = [{'condition': '', 'party': all_party}]
+
+    return {'rival': rival, 'variants': variants}
+
+def enclosing_section_title(node):
+    h = node.find_previous(['h6','h5','h4','h3','h2'])
+    return norm_text(h) if h else ''
 
 def parse_content(soup, image_dir='images'):
     """Traverse the HTML DOM and build nested JSON structure, unwrapping collapsible tables."""
     content_root = soup.find(id='mw-content-text')
     main = content_root.find(class_='mw-parser-output')
+    section_title = ""
 
     sections = []
     stack = [{'level': 1, 'node_list': sections}]
@@ -649,11 +799,11 @@ def parse_content(soup, image_dir='images'):
     for el in main.children:
         if not isinstance(el, Tag):
             continue
-
         # Handle headings h2-h6
         if el.name and el.name.startswith('h') and el.name[1].isdigit():
             level = int(el.name[1])
             title = el.get_text(' ', strip=True)
+            section_title = title
             node = {
                 'type': 'section',
                 'title': title,
@@ -694,7 +844,7 @@ def parse_content(soup, image_dir='images'):
                 caption = caption_el.get_text(' ', strip=True) if caption_el else None
                 stack[-1]['node_list'].append({ 'type': 'image', 'src': src, 'local_path': local_path, 'caption': caption })
 
-        tables_here = [el] if el.name == 'table' else el.find_all('table')
+        tables_here = [el] if el.name == 'table' else el.find_all('table', recursive = False)
         # Tables (including collapsible wrappers)
     
         for tbl in tables_here:
@@ -709,16 +859,20 @@ def parse_content(soup, image_dir='images'):
                         # Debug once to verify:
                         # print("GYM LEADER:", gym_data['leader'].get('name'), "party size:", len(gym_data['party']))
                         stack[-1]['node_list'].append({'type': 'gym_battle', 'data': gym_data})
+            
+            anchor = tbl.find('a', href=lambda h: is_rival_href(h))
+            if anchor:
+                wrapper = closest_expandable_wrapper(anchor) or anchor.find_parent('table')
+                if wrapper:
+                    wid = id(wrapper)
+                    if wid not in processed_tables:
+                        processed_tables.add(wid)
+                        rival_data = parse_rival_block(wrapper)   # defined below
+                        stack[-1]['node_list'].append({'type': 'rival_battle', 'data': rival_data})
             key = id(tbl)
             if key in processed_tables:
                 continue
             processed_tables.add(key)
-
-            if is_gym_leader_block(tbl):
-                gym_data = parse_gym_leader_block(tbl)
-                print("GYM LEADER:", gym_data['leader'].get('name'), "party size:", len(gym_data['party']))
-                stack[-1]['node_list'].append({'type': 'gym_battle', 'data': gym_data})
-                continue
 
             wrapper_title = get_table_title(tbl) if 'get_table_title' in globals() else ''
             inner = unwrap_inner_data_table(tbl)
@@ -732,10 +886,11 @@ def parse_content(soup, image_dir='images'):
                 stack[-1]['node_list'].append({'type': 'table', 'data': table_data})
                 continue
 
-            if ('Available Pokémon' in wrapper_title) or ('Available' in header_text and 'Pokémon' in header_text):
-                table_data = parse_available_pokemon_table(tbl)
-                stack[-1]['node_list'].append({'type': 'table', 'data': table_data})
-                continue
+            if ('Available Pokémon' in wrapper_title) or ('Available Pokémon' in header_text):
+                table_data = parse_available_pokemon_table(tbl, section_title)
+                stack[-1]['node_list'].append({'type': 'Available Pokémon', 'data': table_data})
+                continue   # <-- important: prevents double parsing of inner expandables
+
 
                 # Items (or anything else) → generic fallback on the inner data table
             table_data = parse_table(inner)

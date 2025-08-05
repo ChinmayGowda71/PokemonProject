@@ -1,346 +1,6 @@
 [
   {
     "type": "section",
-    "title": "Route 21",
-    "level": 2,
-    "metadata": {
-      "id": null,
-      "class": []
-    },
-    "content": [
-      {
-        "type": "image",
-        "src": "https://archives.bulbagarden.net/media/upload/thumb/3/3b/Kanto_Route_21_FRLG.png/100px-Kanto_Route_21_FRLG.png",
-        "local_path": null,
-        "caption": "Route 21"
-      },
-      {
-        "type": "paragraph",
-        "text": "Route 21 is an ocean route that leads from Cinnabar Island back to Pallet Town . A single patch of tall grass grows just outside of town."
-      },
-      {
-        "type": "table",
-        "data": {
-          "headers": [
-            "Trainer",
-            "Pokémon"
-          ],
-          "rows": [
-            [
-              "Fisherman Wade Reward: $ 972",
-              [
-                {
-                  "name": "Magikarp ♂",
-                  "level": "27",
-                  "item": "No item"
-                },
-                {
-                  "name": "Magikarp ♂",
-                  "level": "27",
-                  "item": "No item"
-                },
-                {
-                  "name": "Magikarp ♂",
-                  "level": "27",
-                  "item": "No item"
-                },
-                {
-                  "name": "Magikarp ♂",
-                  "level": "27",
-                  "item": "No item"
-                },
-                {
-                  "name": "Magikarp ♂",
-                  "level": "27",
-                  "item": "No item"
-                },
-                {
-                  "name": "Magikarp ♂",
-                  "level": "27",
-                  "item": "No item"
-                }
-              ]
-            ],
-            [
-              "Fisherman Ronald Reward: $ 1008",
-              [
-                {
-                  "name": "Seaking ♂",
-                  "level": "28",
-                  "item": "No item"
-                },
-                {
-                  "name": "Goldeen ♂",
-                  "level": "28",
-                  "item": "No item"
-                },
-                {
-                  "name": "Seaking ♂",
-                  "level": "28",
-                  "item": "No item"
-                },
-                {
-                  "name": "Seaking ♂",
-                  "level": "28",
-                  "item": "No item"
-                }
-              ]
-            ],
-            [
-              "Sis and Bro Lil & Ian Reward: $ 264",
-              [
-                {
-                  "name": "Seadra ♂",
-                  "level": "33",
-                  "item": "No item"
-                },
-                {
-                  "name": "Starmie",
-                  "level": "33",
-                  "item": "No item"
-                }
-              ]
-            ],
-            [
-              "Swimmer♂ Spencer Reward: $ 132",
-              [
-                {
-                  "name": "Seadra ♂",
-                  "level": "33",
-                  "item": "No item"
-                },
-                {
-                  "name": "Tentacruel ♂",
-                  "level": "33",
-                  "item": "No item"
-                }
-              ]
-            ],
-            [
-              "Fisherman Claude Reward: $ 1116",
-              [
-                {
-                  "name": "Shellder ♂",
-                  "level": "31",
-                  "item": "No item"
-                },
-                {
-                  "name": "Cloyster ♂",
-                  "level": "31",
-                  "item": "No item"
-                }
-              ]
-            ],
-            [
-              "Fisherman Nolan Reward: $ 1188",
-              [
-                {
-                  "name": "Seaking ♂",
-                  "level": "33",
-                  "item": "No item"
-                },
-                {
-                  "name": "Goldeen ♂",
-                  "level": "33",
-                  "item": "No item"
-                }
-              ]
-            ],
-            [
-              "Swimmer♂ Jack Reward: $ 148",
-              [
-                {
-                  "name": "Starmie",
-                  "level": "37",
-                  "item": "No item"
-                }
-              ]
-            ],
-            [
-              "Swimmer♂ Roland Reward: $ 128",
-              [
-                {
-                  "name": "Poliwhirl ♂",
-                  "level": "32",
-                  "item": "No item"
-                },
-                {
-                  "name": "Tentacool ♂",
-                  "level": "32",
-                  "item": "No item"
-                },
-                {
-                  "name": "Seadra ♂",
-                  "level": "32",
-                  "item": "No item"
-                }
-              ]
-            ],
-            [
-              "Swimmer♂ Jerome Reward: $ 132",
-              [
-                {
-                  "name": "Staryu",
-                  "level": "33",
-                  "item": "No item"
-                },
-                {
-                  "name": "Wartortle ♂",
-                  "level": "33",
-                  "item": "No item"
-                }
-              ]
-            ]
-          ]
-        }
-      },
-      {
-        "type": "table",
-        "data": {
-          "headers": [
-            "Pokémon",
-            "Games",
-            "Location",
-            "Levels",
-            "Rate"
-          ],
-          "rows": [
-            [
-              "Tangela",
-              "FR/LG",
-              "Grass",
-              "17-28",
-              "100%"
-            ],
-            [
-              "Tentacool",
-              "FR/LG",
-              "Surfing",
-              "5-40",
-              "100%"
-            ],
-            [
-              "Magikarp",
-              "FR/LG",
-              "Fishing Old Rod",
-              "",
-              "100%"
-            ],
-            [
-              "Krabby",
-              "FR/LG",
-              "Fishing Good Rod",
-              "5-15",
-              "60%"
-            ],
-            [
-              "Horsea",
-              "FR/LG",
-              "Fishing Good Rod",
-              "5-15",
-              "60%"
-            ],
-            [
-              "Krabby",
-              "FR/LG",
-              "Fishing Good Rod",
-              "5-15",
-              "20%"
-            ],
-            [
-              "Horsea",
-              "FR/LG",
-              "Fishing Good Rod",
-              "5-15",
-              "20%"
-            ],
-            [
-              "Magikarp",
-              "FR/LG",
-              "Fishing Good Rod",
-              "5-15",
-              "20%"
-            ],
-            [
-              "Krabby",
-              "FR/LG",
-              "Fishing Super Rod",
-              "15-25",
-              "80%"
-            ],
-            [
-              "Horsea",
-              "FR/LG",
-              "Fishing Super Rod",
-              "15-25",
-              "80%"
-            ],
-            [
-              "Gyarados",
-              "FR/LG",
-              "Fishing Super Rod",
-              "15-25",
-              "15%"
-            ],
-            [
-              "Kingler",
-              "FR/LG",
-              "Fishing Super Rod",
-              "25-35",
-              "4%"
-            ],
-            [
-              "Seadra",
-              "FR/LG",
-              "Fishing Super Rod",
-              "25-35",
-              "4%"
-            ],
-            [
-              "Psyduck",
-              "FR/LG",
-              "Fishing Super Rod",
-              "25-35",
-              "1%"
-            ],
-            [
-              "Slowpoke",
-              "FR/LG",
-              "Fishing Super Rod",
-              "25-35",
-              "1%"
-            ],
-            [
-              "A colored background means that the Pokémon can be found in this location in the specified game. A white background with a colored letter means that the Pokémon cannot be found here.",
-              "",
-              "",
-              "",
-              ""
-            ]
-          ]
-        }
-      },
-      {
-        "type": "table",
-        "data": {
-          "headers": [
-            "Item",
-            "Location",
-            "Games"
-          ],
-          "rows": [
-            [
-              "Pearl",
-              "On the fifth island from the south, next to Swimmer Spencer (hidden recurring item ; group B)",
-              "FR LG"
-            ]
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "type": "section",
     "title": "Pallet Town",
     "level": 2,
     "metadata": {
@@ -349,175 +9,8 @@
     },
     "content": [
       {
-        "type": "paragraph",
-        "text": "Having now explored nearly all of the Kanto region, it is a good time to tie up any loose ends, the most important of which is the Power Plant . To get there, fly back to Route 10 ."
-      }
-    ]
-  },
-  {
-    "type": "section",
-    "title": "Route 10",
-    "level": 2,
-    "metadata": {
-      "id": null,
-      "class": []
-    },
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "To reach the Power Plant , use Surf to follow the river southward past the Rock Tunnel entrance. It is only a short distance away, with a single PokéManiac outside the building."
-      },
-      {
-        "type": "table",
-        "data": {
-          "headers": [
-            "Trainer",
-            "Pokémon"
-          ],
-          "rows": [
-            [
-              "PokéManiac Mark Reward: $ 1392 Requires Surf",
-              [
-                {
-                  "name": "Rhyhorn ♂",
-                  "level": "29",
-                  "item": "No item"
-                },
-                {
-                  "name": "Lickitung ♂",
-                  "level": "29",
-                  "item": "No item"
-                }
-              ]
-            ]
-          ]
-        }
-      },
-      {
-        "type": "table",
-        "data": {
-          "headers": [
-            "Pokémon",
-            "Games",
-            "Location",
-            "Levels",
-            "Rate"
-          ],
-          "rows": [
-            [
-              "Tentacool",
-              "FR/LG",
-              "Surfing",
-              "5-40",
-              "100%"
-            ],
-            [
-              "Magikarp",
-              "FR/LG",
-              "Fishing Old Rod",
-              "",
-              "100%"
-            ],
-            [
-              "Krabby",
-              "FR/LG",
-              "Fishing Good Rod",
-              "5-15",
-              "60%"
-            ],
-            [
-              "Horsea",
-              "FR/LG",
-              "Fishing Good Rod",
-              "5-15",
-              "60%"
-            ],
-            [
-              "Krabby",
-              "FR/LG",
-              "Fishing Good Rod",
-              "5-15",
-              "20%"
-            ],
-            [
-              "Horsea",
-              "FR/LG",
-              "Fishing Good Rod",
-              "5-15",
-              "20%"
-            ],
-            [
-              "Magikarp",
-              "FR/LG",
-              "Fishing Good Rod",
-              "5-15",
-              "20%"
-            ],
-            [
-              "Krabby",
-              "FR/LG",
-              "Fishing Super Rod",
-              "15-35",
-              "84%"
-            ],
-            [
-              "Horsea",
-              "FR/LG",
-              "Fishing Super Rod",
-              "15-35",
-              "84%"
-            ],
-            [
-              "Gyarados",
-              "FR/LG",
-              "Fishing Super Rod",
-              "15-25",
-              "15%"
-            ],
-            [
-              "Psyduck",
-              "FR/LG",
-              "Fishing Super Rod",
-              "25-35",
-              "1%"
-            ],
-            [
-              "Slowpoke",
-              "FR/LG",
-              "Fishing Super Rod",
-              "25-35",
-              "1%"
-            ],
-            [
-              "A colored background means that the Pokémon can be found in this location in the specified game. A white background with a colored letter means that the Pokémon cannot be found here.",
-              "",
-              "",
-              "",
-              ""
-            ]
-          ]
-        }
-      },
-      {
-        "type": "table",
-        "data": {
-          "headers": [
-            "Item",
-            "Location",
-            "Games"
-          ],
-          "rows": [
-            [
-              "Max Ether",
-              "One step west, four steps north of PokéManiac Mark (hidden)",
-              "FR LG"
-            ]
-          ]
-        }
-      },
-      {
         "type": "section",
-        "title": "Power Plant",
+        "title": "A World Expands",
         "level": 3,
         "metadata": {
           "id": null,
@@ -525,74 +18,303 @@
         },
         "content": [
           {
-            "type": "image",
-            "src": "https://archives.bulbagarden.net/media/upload/thumb/4/48/Power_Plant_interior_FRLG.png/300px-Power_Plant_interior_FRLG.png",
-            "local_path": null,
-            "caption": "Power Plant"
-          },
-          {
             "type": "paragraph",
-            "text": "The Power Plant is an industrial complex that was abandoned years ago, though some of the machinery still works. Many forgotten items can be found lying around, but beware: some are actually Electrode that only look like items."
-          },
+            "text": "After defeating the elite Trainers at Indigo Plateau , the new Champion returns home to Pallet Town . Professor Oak pays you a visit and inspects the progress you have made on your Pokédex . He tells you that he has a favor to ask, and leads you to his lab. The professor explains that there have been many sightings recently of rare Pokémon species that have never been seen before in Kanto . He would like to study these Pokémon for himself, but his advanced age means that he must rely on you instead. Blue enters a short time later, and Oak takes each Trainer's Pokédex for a moment. If each device has recorded data on at least 60 different species, he upgrades them to National Mode . This enhancement enables the Pokédex to identify these rare Pokémon species so that you may now begin encountering them. Blue insists that he will be the one to complete the Pokédex, and considers looking around One Island first. Follow his lead and use Fly to return to Vermilion City and take the ferry back to the Sevii Islands ."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "title": "One Island",
+    "level": 2,
+    "metadata": {
+      "id": null,
+      "class": []
+    },
+    "content": [
+      {
+        "type": "image",
+        "src": "https://archives.bulbagarden.net/media/upload/thumb/2/23/Ruby_Path_1F_FRLG.png/300px-Ruby_Path_1F_FRLG.png",
+        "local_path": null,
+        "caption": "Ruby Path, 1F"
+      },
+      {
+        "type": "image",
+        "src": "https://archives.bulbagarden.net/media/upload/thumb/1/16/Ruby_Path_B1F_FRLG.png/125px-Ruby_Path_B1F_FRLG.png",
+        "local_path": null,
+        "caption": "Ruby Path, B1F"
+      },
+      {
+        "type": "image",
+        "src": "https://archives.bulbagarden.net/media/upload/thumb/3/35/Ruby_Path_B2F_FRLG.png/300px-Ruby_Path_B2F_FRLG.png",
+        "local_path": null,
+        "caption": "Ruby Path, B2F"
+      },
+      {
+        "type": "image",
+        "src": "https://archives.bulbagarden.net/media/upload/thumb/9/9b/Ruby_Path_B3F_FRLG.png/300px-Ruby_Path_B3F_FRLG.png",
+        "local_path": null,
+        "caption": "Ruby Path, B3F"
+      },
+      {
+        "type": "image",
+        "src": "https://archives.bulbagarden.net/media/upload/thumb/f/fa/Ruby_Path_B4F_FRLG.png/300px-Ruby_Path_B4F_FRLG.png",
+        "local_path": null,
+        "caption": "Ruby Path, B4F"
+      },
+      {
+        "type": "image",
+        "src": "https://archives.bulbagarden.net/media/upload/6/61/Ruby_Path_B5F_FRLG.png",
+        "local_path": null,
+        "caption": "Ruby Path, B5F"
+      },
+      {
+        "type": "section",
+        "title": "One Island (Town)",
+        "level": 3,
+        "metadata": {
+          "id": null,
+          "class": []
+        },
+        "content": [
+          {
+            "type": "section",
+            "title": "Pokémon Network Center",
+            "level": 4,
+            "metadata": {
+              "id": null,
+              "class": []
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "Speak to Celio to learn that he is modifying his Network Machine. This update will allow it to accommodate long-distance trades, but in order to do so, he says that the machine requires a special type of gemstone. It is rumored to be somewhere on One Island but he has not been able to find one yet."
+              },
+              {
+                "type": "table",
+                "data": {
+                  "headers": [
+                    "Item",
+                    "Location",
+                    "Games"
+                  ],
+                  "rows": [
+                    [
+                      "Later visit"
+                    ],
+                    [
+                      "Rainbow Pass",
+                      "Pokémon Network Center; from Celio, in exchange for the Ruby",
+                      "FR LG"
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Mt. Ember",
+        "level": 3,
+        "metadata": {
+          "id": null,
+          "class": []
+        },
+        "content": [
           {
             "type": "table",
+            "data": {
+              "headers": [
+                "Trainer",
+                "Pokémon"
+              ],
+              "rows": [
+                [
+                  "Team Rocket Grunt Reward: $ 1184",
+                  [
+                    {
+                      "name": "Cubone ♂",
+                      "level": "37",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Marowak ♂",
+                      "level": "37",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "Team Rocket Grunt Reward: $ 1120",
+                  [
+                    {
+                      "name": "Rattata ♂",
+                      "level": "35",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Raticate ♂",
+                      "level": "35",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Sandshrew ♂",
+                      "level": "35",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Sandslash ♂",
+                      "level": "35",
+                      "item": "No item"
+                    }
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Available Pokémon",
             "data": {
               "headers": [
                 "Pokémon",
                 "Games",
                 "Location",
                 "Levels",
-                "Rate"
+                "Rate",
+                "Section"
               ],
               "rows": [
                 [
-                  "Magnemite",
+                  "Geodude",
                   "FR/LG",
-                  "Walking",
-                  "22, 25",
-                  "30%"
+                  "Cave",
+                  "32, 34, 36, 38, 40",
+                  "50%",
+                  "Ruby Path, 1F"
                 ],
                 [
-                  "Voltorb",
+                  "Machop",
                   "FR/LG",
-                  "Walking",
-                  "22, 25",
-                  "30%"
+                  "Cave",
+                  "34, 36, 38",
+                  "40%",
+                  "Ruby Path, 1F"
                 ],
                 [
-                  "Pikachu",
+                  "Machoke",
                   "FR/LG",
-                  "Walking",
-                  "22, 24, 26",
-                  "25%"
+                  "Cave",
+                  "40, 42",
+                  "10%",
+                  "Ruby Path, 1F"
                 ],
                 [
-                  "Magneton",
+                  "Geodude",
                   "FR/LG",
-                  "Walking",
-                  "31, 34",
-                  "15%"
+                  "Rock Smash",
+                  "25-40",
+                  "65%",
+                  "Ruby Path, 1F"
                 ],
                 [
-                  "Magneton",
+                  "Graveler",
                   "FR/LG",
-                  "Walking",
-                  "31, 34",
-                  "10%"
+                  "Rock Smash",
+                  "30-50",
+                  "35%",
+                  "Ruby Path, 1F"
                 ],
                 [
-                  "Electabuzz",
+                  "Geodude",
                   "FR/LG",
-                  "Walking",
-                  "32, 35",
-                  "5%"
+                  "Cave",
+                  "34, 36, 38, 40, 42",
+                  "70%",
+                  "Ruby Path, B1F and B5F"
                 ],
                 [
-                  "A colored background means that the Pokémon can be found in this location in the specified game. A white background with a colored letter means that the Pokémon cannot be found here.",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Slugma",
+                  "FR/LG",
+                  "Cave",
+                  "24, 26, 28, 30",
+                  "30%",
+                  "Ruby Path, B1F and B5F"
+                ],
+                [
+                  "Geodude",
+                  "FR/LG",
+                  "Rock Smash",
+                  "25-40",
+                  "65%",
+                  "Ruby Path, B1F and B5F"
+                ],
+                [
+                  "Graveler",
+                  "FR/LG",
+                  "Rock Smash",
+                  "30-50",
+                  "35%",
+                  "Ruby Path, B1F and B5F"
+                ],
+                [
+                  "Slugma",
+                  "FR/LG",
+                  "Cave",
+                  "22, 24, 26, 28, 30, 32",
+                  "60%",
+                  "Ruby Path, B2F and B4F"
+                ],
+                [
+                  "Geodude",
+                  "FR/LG",
+                  "Cave",
+                  "40, 42, 44",
+                  "40%",
+                  "Ruby Path, B2F and B4F"
+                ],
+                [
+                  "Geodude",
+                  "FR/LG",
+                  "Rock Smash",
+                  "25-40",
+                  "65%",
+                  "Ruby Path, B2F and B4F"
+                ],
+                [
+                  "Graveler",
+                  "FR/LG",
+                  "Rock Smash",
+                  "30-50",
+                  "35%",
+                  "Ruby Path, B2F and B4F"
+                ],
+                [
+                  "Slugma",
+                  "FR/LG",
+                  "Cave",
+                  "18, 20, 22, 24, 26, 28, 30, 32, 34, 36",
+                  "100%",
+                  "Ruby Path, B3F"
+                ],
+                [
+                  "Slugma",
+                  "FR/LG",
+                  "Rock Smash",
+                  "15-35",
+                  "90%",
+                  "Ruby Path, B3F"
+                ],
+                [
+                  "Magcargo",
+                  "FR/LG",
+                  "Rock Smash",
+                  "25-45",
+                  "10%",
+                  "Ruby Path, B3F"
                 ]
               ]
             }
@@ -607,41 +329,8 @@
               ],
               "rows": [
                 [
-                  "Max Potion",
-                  "North of the entrance room",
-                  "FR LG"
-                ],
-                [
-                  "TM17 ( Protect )",
-                  "In the long west-east room near the center of the facility",
-                  "FR LG"
-                ],
-                [
-                  "Elixir",
-                  "In the long west-east room near the center of the facility",
-                  "FR LG"
-                ],
-                [
-                  "TM25 ( Thunder )",
-                  "In the southeast room",
-                  "FR LG"
-                ],
-                [
-                  "ThunderStone ×2",
-                  "Northeast room, northeast corner One step south, three steps east of Zapdos ' location (hidden)",
-                  "FR LG"
-                ],
-                [
-                  "Max Elixir",
-                  "Central room, in front of the eastern of three machines (hidden)",
-                  "FR LG"
-                ],
-                [
-                  "Fake items"
-                ],
-                [
-                  "Electrode ×2",
-                  "In the south-central room Northeast room, northwest corner",
+                  "Ruby",
+                  "B5F; on the pedestal (requires Strength )",
                   "FR LG"
                 ]
               ]
@@ -649,7 +338,7 @@
           },
           {
             "type": "section",
-            "title": "In Search of Power",
+            "title": "Exterior",
             "level": 4,
             "metadata": {
               "id": null,
@@ -658,11 +347,22 @@
             "content": [
               {
                 "type": "paragraph",
-                "text": "Pass through the entrance room to get a Max Potion . Continue in a clockwise direction to the large, central room to find TM17 ( Protect ) and an Elixir . Collect TM25 ( Thunder ) in the southeast room, then follow the narrow hallway northward. Grab the ThunderStone from the northeast corner of the northeast room. Continue westward to reach the final room."
-              },
+                "text": "Go east from the Hiker near the entrance to find that the two Team Rocket Grunts have finally punched through the wall. They can be overheard excitedly planning to bring any treasure they may find back to the Rocket Warehouse . The building seems to require two passwords to enter. One of the Grunts has already forgotten them, but the other helpfully reminds him of the first one: \" Goldeen need log\" . But before he can reveal the second password, they realize that you have been listening in and draw you into battle. Defeat them and they run off to regroup, leaving the new cave entrance exposed."
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "title": "Ruby Path",
+            "level": 4,
+            "metadata": {
+              "id": null,
+              "class": []
+            },
+            "content": [
               {
                 "type": "section",
-                "title": "VS Zapdos",
+                "title": "1F",
                 "level": 5,
                 "metadata": {
                   "id": null,
@@ -671,56 +371,1127 @@
                 "content": [
                   {
                     "type": "paragraph",
-                    "text": "Zapdos is the last of the legendary birds that you will encounter. Use Rock - and Ice-type attacks to weaken it quickly, then follow up with Grass , Flying , and Fighting moves to wear its health down further. Like with Articuno and Moltres , it will be useful to cause status ailments like Sleep to increase the odds of catching it."
+                    "text": "There are several rocks in the first tunnel that can be cleared with Rock Smash . Go northwest and climb down the ladder."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "B1F",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Head northward and pass through more breakable rocks to reach the ladder."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "B2",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Go east to find the path blocked by several boulders. Use Strength to move the first boulder (→2) eastward. Take a few steps to the southeast and push the second (→1) eastward, as well. Move the northernmost boulder (↑1) northward, then go south and climb down the ladder."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "B3F",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Clearing the breakable rocks on this level may reveal wild Slugma or Magcargo , some of the rare Pokémon Oak spoke of when he upgraded your Pokédex . Head east and use Strength to move the boulder (→1, ↓1) southeastward to clear a path. A short distance ahead, the path splits in two. Follow the southern tunnel and push the boulder all the way westward. Walk down the stairway and climb down the ladder to the south."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "B4F",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "On this level, a series of glass panels are arranged to display the Braille alphabet, letter by letter. Climb down the ladder in the southeast corner."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "B5F",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Examine the pedestal to obtain the Ruby . A panel on the north wall features another Braille inscription. Take the ladder and climb back up to B3F."
                   },
                   {
                     "type": "table",
                     "data": {
                       "headers": [
-                        "Types: Electric Flying Ability: Pressure Held item: None"
+                        "Braille",
+                        "English"
                       ],
                       "rows": [
                         [
-                          "Zapdos Lv. 50"
-                        ],
-                        [
-                          {
-                            "headers": [
-                              "Thunder Wave Electric --",
-                              "Agility Psychic --"
-                            ],
-                            "rows": [
-                              [
-                                {
-                                  "headers": [
-                                    "Detect"
-                                  ],
-                                  "rows": [
-                                    [
-                                      "Fighting"
-                                    ]
-                                  ]
-                                },
-                                {
-                                  "headers": [
-                                    "Drill Peck"
-                                  ],
-                                  "rows": [
-                                    [
-                                      "Flying"
-                                    ]
-                                  ]
-                                }
-                              ]
-                            ]
-                          }
+                          "⠑⠧⠑⠗⠽⠞⠓⠊⠝⠛⠀⠓⠁⠎⠀⠍⠑⠁⠝⠊⠝⠛ ⠑⠭⠊⠎⠞⠑⠝⠉⠑⠀⠓⠁⠎⠀⠍⠑⠁⠝⠊⠝⠛ ⠃⠑⠊⠝⠛⠀⠁⠇⠊⠧⠑⠀⠓⠁⠎⠀⠍⠑⠁⠝⠊⠝⠛ ⠓⠁⠧⠑⠀⠙⠗⠑⠁⠍⠎ ⠥⠎⠑⠀⠏⠕⠺⠑⠗⠲",
+                          "EVERYTHING HAS MEANING EXISTENCE HAS MEANING BEING ALIVE HAS MEANING HAVE DREAMS USE POWER."
                         ]
                       ]
                     }
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "B3F",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Return to the branching tunnels and take the eastern path this time. Move the northern boulder (→1) eastward, then the southern boulder (←1) westward. Continue southward and climb up the ladder. This short path acts as a shortcut back to the entrance, ending in the northeast part of 1F."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "title": "One Island (Town)",
+        "level": 3,
+        "metadata": {
+          "id": null,
+          "class": []
+        },
+        "content": [
+          {
+            "type": "section",
+            "title": "Pokémon Network Center",
+            "level": 4,
+            "metadata": {
+              "id": null,
+              "class": []
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "Return to Celio to deliver the Ruby . He happily installs the gemstone in his Network Machine, but has another favor to ask. While studying gemstones, he discovered that there is a second that forms a pair with the Ruby. The only information that he has to work with is that it is somewhere in the Sevii Islands . To help you on your new quest, he takes back your Tri-Pass and gives you his personal Rainbow Pass , which allows travel among all seven of the islands. He also adds another page to your Town Map that shows the other four islands."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "title": "Four Island",
+    "level": 2,
+    "metadata": {
+      "id": null,
+      "class": []
+    },
+    "content": [
+      {
+        "type": "image",
+        "src": "https://archives.bulbagarden.net/media/upload/thumb/9/94/Four_Island_FRLG.png/300px-Four_Island_FRLG.png",
+        "local_path": null,
+        "caption": "Four Island"
+      },
+      {
+        "type": "section",
+        "title": "Four Island (Town)",
+        "level": 3,
+        "metadata": {
+          "id": null,
+          "class": []
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "The town of Four Island is a small settlement on the southwest side of Four Island . A second Pokémon Day Care can be found here, and the eastern side of the island houses Icefall Cave ."
+          },
+          {
+            "type": "Available Pokémon",
+            "data": {
+              "headers": [
+                "Pokémon",
+                "Games",
+                "Location",
+                "Levels",
+                "Rate",
+                "Section"
+              ],
+              "rows": [
+                [
+                  "Wooper",
+                  "FR",
+                  "Surfing",
+                  "5-25",
+                  "70%",
+                  "Four Island (Town)"
+                ],
+                [
+                  "Marill",
+                  "LG",
+                  "Surfing",
+                  "5-25",
+                  "70%",
+                  "Four Island (Town)"
+                ],
+                [
+                  "Psyduck",
+                  "FR",
+                  "Surfing",
+                  "5-35",
+                  "30%",
+                  "Four Island (Town)"
+                ],
+                [
+                  "Slowpoke",
+                  "LG",
+                  "Surfing",
+                  "5-35",
+                  "30%",
+                  "Four Island (Town)"
+                ],
+                [
+                  "Magikarp",
+                  "FR/LG",
+                  "Fishing Old Rod",
+                  "",
+                  "100%",
+                  "Four Island (Town)"
+                ],
+                [
+                  "Poliwag",
+                  "FR/LG",
+                  "Fishing Good Rod",
+                  "5-15",
+                  "60%",
+                  "Four Island (Town)"
+                ],
+                [
+                  "Goldeen",
+                  "FR/LG",
+                  "Fishing Good Rod",
+                  "5-15",
+                  "20%",
+                  "Four Island (Town)"
+                ],
+                [
+                  "Magikarp",
+                  "FR/LG",
+                  "Fishing Good Rod",
+                  "5-15",
+                  "20%",
+                  "Four Island (Town)"
+                ],
+                [
+                  "Poliwag",
+                  "FR/LG",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "40%",
+                  "Four Island (Town)"
+                ],
+                [
+                  "Poliwhirl",
+                  "FR/LG",
+                  "Fishing Super Rod",
+                  "20-30",
+                  "40%",
+                  "Four Island (Town)"
+                ],
+                [
+                  "Gyarados",
+                  "FR/LG",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "15%",
+                  "Four Island (Town)"
+                ],
+                [
+                  "Psyduck",
+                  "FR",
+                  "Fishing Super Rod",
+                  "15-35",
+                  "5%",
+                  "Four Island (Town)"
+                ],
+                [
+                  "Slowpoke",
+                  "LG",
+                  "Fishing Super Rod",
+                  "15-35",
+                  "5%",
+                  "Four Island (Town)"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": [
+                "Item",
+                "Location",
+                "Games"
+              ],
+              "rows": [
+                [
+                  "Ultra Ball",
+                  "On the beach, north of the port (hidden recurring item ; group A)",
+                  "FR LG"
+                ],
+                [
+                  "Star Piece",
+                  "In the northernmost part of the beach (requires Rock Smash )",
+                  "FR LG"
+                ],
+                [
+                  "Pearl",
+                  "On the beach, east of the port (hidden recurring item ; group B)",
+                  "FR LG"
+                ],
+                [
+                  "Stardust",
+                  "On the strip of land south of the entrance to Icefall Cave (requires Surf )",
+                  "FR LG"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "section",
+            "title": "A Rival Reappears",
+            "level": 4,
+            "metadata": {
+              "id": null,
+              "class": []
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "When you leave the port, you run into Blue on the beach. He wonders what you are doing in the Sevii Islands , and tells you to stop copying him. He brags about obtaining a Pokémon Egg , and hints that he saw someone you both know on the island. Afterward, he pushes you aside to enter the port."
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "title": "Pokémon Day Care",
+            "level": 4,
+            "metadata": {
+              "id": null,
+              "class": []
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "A second Pokémon Day Care is located on the north side of town. While the Day Care on Route 5 can only accept one Pokémon at a time, this location can accommodate up to two at once. If two compatible Pokémon are left at the same time, you may return to find an Egg !"
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "title": "Move Tutor",
+            "level": 4,
+            "metadata": {
+              "id": null,
+              "class": []
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "There are two men in the northeast house. Speak to the one on the left to learn that they are having a Body Slam match to see who wimps out first. He says that you would be squashed like a bug if you joined them, so he offers to teach Body Slam to a compatible Pokémon of yours instead."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "title": "The Braggart's house",
+        "level": 3,
+        "metadata": {
+          "id": null,
+          "class": []
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Located next door to the Poké Mart, the Braggart hands Trainer Card Stickers to Trainers who have achieved certain accomplishments. There are three different stickers, with four levels each."
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": [
+                "Requirement",
+                "Level 1",
+                "Level 2",
+                "Level 3",
+                "Level 4"
+              ],
+              "rows": [
+                [
+                  "Enter the Hall of Fame",
+                  "1",
+                  "40",
+                  "100",
+                  "200"
+                ],
+                [
+                  "Hatch a Pokémon Egg",
+                  "1",
+                  "100",
+                  "200",
+                  "300"
+                ],
+                [
+                  "Win a Link Multi Battle",
+                  "1",
+                  "20",
+                  "50",
+                  "100"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": [
+                "Level 1",
+                "Level 2",
+                "Level 3",
+                "Level 4"
+              ],
+              "rows": []
+            }
+          },
+          {
+            "type": "section",
+            "title": "Lorelei's house",
+            "level": 4,
+            "metadata": {
+              "id": null,
+              "class": []
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "The easternmost house belongs to Lorelei , the master Ice Pokémon Trainer of the Elite Four . She grew up on the island, even catching her first Pokémon in the nearby Icefall Cave . She is not here at the moment, but her home features a collection of stuffed Pokémon dolls . There are six at the moment, but she often returns with more to add to her collection."
+              },
+              {
+                "type": "image",
+                "src": "https://archives.bulbagarden.net/media/upload/thumb/8/8a/Icefall_Cave_Map_Entrance.png/300px-Icefall_Cave_Map_Entrance.png",
+                "local_path": null,
+                "caption": "Icefall Cave, Entrance"
+              },
+              {
+                "type": "image",
+                "src": "https://archives.bulbagarden.net/media/upload/thumb/5/56/Icefall_Cave_Map_Base_Floor.png/300px-Icefall_Cave_Map_Base_Floor.png",
+                "local_path": null,
+                "caption": "Icefall Cave, 1F"
+              },
+              {
+                "type": "image",
+                "src": "https://archives.bulbagarden.net/media/upload/thumb/e/e7/Icefall_Cave_Map_Down_Floor.png/300px-Icefall_Cave_Map_Down_Floor.png",
+                "local_path": null,
+                "caption": "Icefall Cave, B1F"
+              },
+              {
+                "type": "image",
+                "src": "https://archives.bulbagarden.net/media/upload/thumb/e/ef/Icefall_Cave_Map_Back.png/300px-Icefall_Cave_Map_Back.png",
+                "local_path": null,
+                "caption": "Icefall Cave, Back Cave"
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "title": "Icefall Cave",
+            "level": 4,
+            "metadata": {
+              "id": null,
+              "class": []
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "Icefall Cave is a frigid cave located in the northeast part of Four Island . Several sections of the cave have crumbling floors that have been filled in by ice; stepping on these fragile areas more than once causes them to fall away. The deepest part of the cave is connected to the ocean, and is the only location where wild Lapras may be found."
+              },
+              {
+                "type": "table",
+                "data": {
+                  "headers": [
+                    "Trainer",
+                    "Pokémon"
+                  ],
+                  "rows": [
+                    [
+                      "Team Rocket Grunt Reward: $ 1216",
+                      [
+                        {
+                          "name": "Zubat ♂",
+                          "level": "38",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Zubat ♂",
+                          "level": "38",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Golbat ♂",
+                          "level": "38",
+                          "item": "No item"
+                        }
+                      ]
+                    ]
+                  ]
+                }
+              },
+              {
+                "type": "Available Pokémon",
+                "data": {
+                  "headers": [
+                    "Pokémon",
+                    "Games",
+                    "Location",
+                    "Levels",
+                    "Rate",
+                    "Section"
+                  ],
+                  "rows": [
+                    [
+                      "Seel",
+                      "FR/LG",
+                      "Cave",
+                      "43, 45, 47",
+                      "40%",
+                      "Entrance"
+                    ],
+                    [
+                      "Golbat",
+                      "FR/LG",
+                      "Cave",
+                      "45, 48",
+                      "25%",
+                      "Entrance"
+                    ],
+                    [
+                      "Dewgong",
+                      "FR/LG",
+                      "Cave",
+                      "49, 51, 53",
+                      "20%",
+                      "Entrance"
+                    ],
+                    [
+                      "Zubat",
+                      "FR/LG",
+                      "Cave",
+                      "",
+                      "10%",
+                      "Entrance"
+                    ],
+                    [
+                      "Psyduck",
+                      "FR",
+                      "Cave",
+                      "",
+                      "5%",
+                      "Entrance"
+                    ],
+                    [
+                      "Slowpoke",
+                      "LG",
+                      "Cave",
+                      "",
+                      "5%",
+                      "Entrance"
+                    ],
+                    [
+                      "Seel",
+                      "FR/LG",
+                      "Surfing",
+                      "5-35",
+                      "60%",
+                      "Entrance"
+                    ],
+                    [
+                      "Psyduck",
+                      "FR",
+                      "Surfing",
+                      "5-35",
+                      "30%",
+                      "Entrance"
+                    ],
+                    [
+                      "Slowpoke",
+                      "LG",
+                      "Surfing",
+                      "5-35",
+                      "30%",
+                      "Entrance"
+                    ],
+                    [
+                      "Dewgong",
+                      "FR/LG",
+                      "Surfing",
+                      "35-40",
+                      "5%",
+                      "Entrance"
+                    ],
+                    [
+                      "Wooper",
+                      "FR",
+                      "Surfing",
+                      "5-15",
+                      "5%",
+                      "Entrance"
+                    ],
+                    [
+                      "Marill",
+                      "LG",
+                      "Surfing",
+                      "5-15",
+                      "5%",
+                      "Entrance"
+                    ],
+                    [
+                      "Magikarp",
+                      "FR/LG",
+                      "Fishing Old Rod",
+                      "",
+                      "100%",
+                      "Entrance"
+                    ],
+                    [
+                      "Poliwag",
+                      "FR/LG",
+                      "Fishing Good Rod",
+                      "5-15",
+                      "60%",
+                      "Entrance"
+                    ],
+                    [
+                      "Goldeen",
+                      "FR/LG",
+                      "Fishing Good Rod",
+                      "5-15",
+                      "20%",
+                      "Entrance"
+                    ],
+                    [
+                      "Magikarp",
+                      "FR/LG",
+                      "Fishing Good Rod",
+                      "5-15",
+                      "20%",
+                      "Entrance"
+                    ],
+                    [
+                      "Poliwag",
+                      "FR/LG",
+                      "Fishing Super Rod",
+                      "15-25",
+                      "40%",
+                      "Entrance"
+                    ],
+                    [
+                      "Poliwhirl",
+                      "FR/LG",
+                      "Fishing Super Rod",
+                      "20-30",
+                      "40%",
+                      "Entrance"
+                    ],
+                    [
+                      "Gyarados",
+                      "FR/LG",
+                      "Fishing Super Rod",
+                      "15-25",
+                      "15%",
+                      "Entrance"
+                    ],
+                    [
+                      "Psyduck",
+                      "FR",
+                      "Fishing Super Rod",
+                      "15-35",
+                      "5%",
+                      "Entrance"
+                    ],
+                    [
+                      "Slowpoke",
+                      "LG",
+                      "Fishing Super Rod",
+                      "15-35",
+                      "5%",
+                      "Entrance"
+                    ],
+                    [
+                      "Swinub",
+                      "FR/LG",
+                      "Cave",
+                      "23, 25, 27, 29, 31",
+                      "50%",
+                      "1F"
+                    ],
+                    [
+                      "Golbat",
+                      "FR/LG",
+                      "Cave",
+                      "45, 48",
+                      "25%",
+                      "1F"
+                    ],
+                    [
+                      "Zubat",
+                      "FR/LG",
+                      "Cave",
+                      "",
+                      "10%",
+                      "1F"
+                    ],
+                    [
+                      "Seel",
+                      "FR/LG",
+                      "Cave",
+                      "",
+                      "10%",
+                      "1F"
+                    ],
+                    [
+                      "Delibird",
+                      "FR",
+                      "Cave",
+                      "",
+                      "5%",
+                      "1F"
+                    ],
+                    [
+                      "Sneasel",
+                      "LG",
+                      "Cave",
+                      "",
+                      "5%",
+                      "1F"
+                    ],
+                    [
+                      "Seel",
+                      "FR/LG",
+                      "Cave",
+                      "43, 45, 47",
+                      "40%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Golbat",
+                      "FR/LG",
+                      "Cave",
+                      "45, 48",
+                      "25%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Dewgong",
+                      "FR/LG",
+                      "Cave",
+                      "49, 51, 53",
+                      "20%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Zubat",
+                      "FR/LG",
+                      "Cave",
+                      "",
+                      "10%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Psyduck",
+                      "FR",
+                      "Cave",
+                      "",
+                      "5%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Slowpoke",
+                      "LG",
+                      "Cave",
+                      "",
+                      "5%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Tentacool",
+                      "FR/LG",
+                      "Surfing",
+                      "5-45",
+                      "95%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Tentacruel",
+                      "FR/LG",
+                      "Surfing",
+                      "35-45",
+                      "4%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Lapras",
+                      "FR/LG",
+                      "Surfing",
+                      "30-45",
+                      "1%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Magikarp",
+                      "FR/LG",
+                      "Fishing Old Rod",
+                      "",
+                      "100%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Horsea",
+                      "FR",
+                      "Fishing Good Rod",
+                      "5-15",
+                      "80%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Krabby",
+                      "LG",
+                      "Fishing Good Rod",
+                      "5-15",
+                      "80%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Magikarp",
+                      "FR/LG",
+                      "Fishing Good Rod",
+                      "5-15",
+                      "20%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Shellder",
+                      "FR",
+                      "Fishing Super Rod",
+                      "15-25",
+                      "40%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Horsea",
+                      "FR",
+                      "Fishing Super Rod",
+                      "15-25",
+                      "40%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Krabby",
+                      "LG",
+                      "Fishing Super Rod",
+                      "15-25",
+                      "40%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Staryu",
+                      "LG",
+                      "Fishing Super Rod",
+                      "15-25",
+                      "40%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Gyarados",
+                      "FR/LG",
+                      "Fishing Super Rod",
+                      "15-25",
+                      "15%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Seadra",
+                      "FR",
+                      "Fishing Super Rod",
+                      "25-35",
+                      "4%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Kingler",
+                      "LG",
+                      "Fishing Super Rod",
+                      "25-35",
+                      "4%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Psyduck",
+                      "FR",
+                      "Fishing Super Rod",
+                      "25-35",
+                      "1%",
+                      "Back Cave"
+                    ],
+                    [
+                      "Slowpoke",
+                      "LG",
+                      "Fishing Super Rod",
+                      "25-35",
+                      "1%",
+                      "Back Cave"
+                    ]
+                  ]
+                }
+              },
+              {
+                "type": "table",
+                "data": {
+                  "headers": [
+                    "Item",
+                    "Location",
+                    "Games"
+                  ],
+                  "rows": [
+                    [
+                      "1F"
+                    ],
+                    [
+                      "Ultra Ball",
+                      "Center area, northeast of the large ice patch",
+                      "FR LG"
+                    ],
+                    [
+                      "HM07 ( Waterfall )",
+                      "On the southern ledge, accessed via B1F",
+                      "FR LG"
+                    ],
+                    [
+                      "B1F"
+                    ],
+                    [
+                      "NeverMeltIce",
+                      "East side",
+                      "FR LG"
+                    ],
+                    [
+                      "Full Restore",
+                      "Near the southern ladder",
+                      "FR LG"
+                    ]
+                  ]
+                }
+              },
+              {
+                "type": "section",
+                "title": "Entrance",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "A waterfall flows down from the upper level. Use Surf to cross the water on the lower level and enter the next area."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "1F",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Head northeast to find a large icy patch. Walk across the two eastern sections to reach an Ultra Ball , then pass over the northwest section to continue on. Step on the northernmost icy spot twice to fall through to the lower floor."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "B1F",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Climb up the nearest ladder to reach the northeast part of 1F."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "1F (Northeast)",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Step on the northern icy spot twice to fall through to the basement."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "B1F",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Move south to slide along the ice, then east to reach a NeverMeltIce . Head northwestward over the ice and climb back up the ladder."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "1F (Northeast)",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Step on the southern icy spot twice to drop down to the basement again."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "B1F",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Move north, east, south, then west to reach the southern edge of the icy patch. Grab the Full Restore to the west and climb up the southern ladder."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "1F",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Pick up HM07 ( Waterfall ) from above the ledge and use it to teach the move to a compatible Pokémon. Take the south exit to return to the entrance."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "Entrance",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Use Waterfall to reach the upper area and climb down the ladder."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "1F",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Go north through the opening in the wall to reach the final area."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "Back Cave",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "When you reach the Back Cave, you find Lorelei confronting a group of three Team Rocket Grunts who have been poaching and selling Pokémon from the cave. Once she notices you, Lorelei asks for your help in kicking them out. She takes on the two Grunts on the left, leaving you to battle the one on the right."
                   },
                   {
                     "type": "paragraph",
-                    "text": "When the battle is over, take the side exit and fly back to Viridian City ."
+                    "text": "Afterward, Lorelei presses the Grunts for the location of the captured Pokémon. Even defeated, they refuse to give it up. She tells them that her Lapras is furious for what they have done to its friends, and persuades them to talk after an Ice Beam attack. The Pokémon are being held in the Rocket Warehouse on Five Island . However, entering the building requires two passwords, and there is still one to find."
                   }
                 ]
               }
@@ -732,13 +1503,47 @@
   },
   {
     "type": "section",
-    "title": "Viridian City",
+    "title": "Six Island",
     "level": 2,
     "metadata": {
       "id": null,
       "class": []
     },
     "content": [
+      {
+        "type": "image",
+        "src": "https://archives.bulbagarden.net/media/upload/thumb/d/d9/Fortune_Island.png/300px-Fortune_Island.png",
+        "local_path": null,
+        "caption": "Six Island"
+      },
+      {
+        "type": "image",
+        "src": "https://archives.bulbagarden.net/media/upload/thumb/d/d8/Pattern_Bush_FRLG.png/300px-Pattern_Bush_FRLG.png",
+        "local_path": null,
+        "caption": "Pattern Bush"
+      },
+      {
+        "type": "image",
+        "src": "https://archives.bulbagarden.net/media/upload/thumb/b/be/Altering_Cave_FRLG.png/300px-Altering_Cave_FRLG.png",
+        "local_path": null,
+        "caption": "Altering Cave"
+      },
+      {
+        "type": "image",
+        "src": "https://archives.bulbagarden.net/media/upload/7/78/Dotted_Hole_Entrance.png",
+        "local_path": null,
+        "caption": "Dotted Hole, 1F"
+      },
+      {
+        "type": "image",
+        "src": "https://archives.bulbagarden.net/media/upload/8/83/Dotted_Hole_Sapphire.png",
+        "local_path": null,
+        "caption": "Dotted Hole, B5F"
+      },
+      {
+        "type": "paragraph",
+        "text": "Six Island consists of a larger island to the south that holds the town of Six Island and Ruin Valley , and smaller northern islands that make up Water Path , Green Path , and Pattern Bush . Outcast Island is situated far to the north."
+      },
       {
         "type": "table",
         "data": {
@@ -749,16 +1554,8 @@
           ],
           "rows": [
             [
-              "Viridian Gym"
-            ],
-            [
-              "TM26 ( Earthquake )",
-              "From Giovanni, after defeating him",
-              "FR LG"
-            ],
-            [
-              "Macho Brace",
-              "On the spot where Giovanni stood (hidden) (requires using the Itemfinder on this spot)",
+              "Leppa Berry",
+              "North of the Pokémon Center, accessed via Water Path (hidden)",
               "FR LG"
             ]
           ]
@@ -766,7 +1563,7 @@
       },
       {
         "type": "section",
-        "title": "Viridian Gym",
+        "title": "Six Island (Town)",
         "level": 3,
         "metadata": {
           "id": null,
@@ -774,276 +1571,45 @@
         },
         "content": [
           {
-            "type": "image",
-            "src": "https://archives.bulbagarden.net/media/upload/thumb/2/25/Viridian_Gym_FRLG.png/300px-Viridian_Gym_FRLG.png",
-            "local_path": null,
-            "caption": "Viridian Gym"
-          },
+            "type": "section",
+            "title": "Pokémon Center",
+            "level": 4,
+            "metadata": {
+              "id": null,
+              "class": []
+            },
+            "content": [
+              {
+                "type": "section",
+                "title": "Heading Home",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Visit the Pokémon Center to run into Blue again. He tells you that he has seen enough of the Sevii Islands and is returning to Kanto to work on his Pokédex ."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Water Path",
+        "level": 3,
+        "metadata": {
+          "id": null,
+          "class": []
+        },
+        "content": [
           {
             "type": "paragraph",
-            "text": "In the time it took to collect the seven other Badges, the Gym Leader of Viridian Gym has finally returned. Giovanni resumed his position as Gym Leader shortly after his defeat in Saffron City . The Viridian Gym specializes in Ground-type Pokémon. Grass -, Water -, and Ice-type attacks will be the most useful. Flying-type Pokémon are immune to Ground attacks and Flying moves will deal serious damage to the several Fighting Pokémon inside. Psychic moves will work wonders against Poison-type Pokémon."
-          },
-          {
-            "type": "paragraph",
-            "text": "Like the Rocket Hideout in Celadon City , the Viridian Gym also employs spinner tiles to confuse and disorient any challengers. Go north through the center room. Battle Ace Trainer Warren and Black Belt Takashi, so that Takashi walks away from the north wall. Return to the entrance and follow the spinner tiles north and west to reach the Gym Leader."
-          },
-          {
-            "type": "gym_battle",
-            "data": {
-              "leader": {
-                "name": "Giovanni",
-                "role": "Leader",
-                "gym": "Viridian Gym",
-                "games": "FireRed and LeafGreen",
-                "reward": "5000",
-                "portrait": "https://archives.bulbagarden.net/media/upload/4/41/Spr_FRLG_Giovanni.png",
-                "balls": 5
-              },
-              "party": [
-                {
-                  "sprite": "https://archives.bulbagarden.net/media/upload/a/a1/Spr_3f_111.png",
-                  "name": "Rhyhorn",
-                  "level": "45",
-                  "types": [
-                    "Ground",
-                    "Rock"
-                  ],
-                  "ability": "Lightningrod",
-                  "item": "None",
-                  "moves": [
-                    {
-                      "name": "Take Down Normal -- Rock Blast Rock --",
-                      "type": "Scary Face Normal -- Earthquake Ground --"
-                    },
-                    {
-                      "name": "Take Down",
-                      "type": "Normal"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    },
-                    {
-                      "name": "Rock Blast",
-                      "type": "Rock"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    },
-                    {
-                      "name": "Scary Face",
-                      "type": "Normal"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    },
-                    {
-                      "name": "Earthquake",
-                      "type": "Ground"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    }
-                  ]
-                },
-                {
-                  "sprite": "https://archives.bulbagarden.net/media/upload/9/99/Spr_3f_051.png",
-                  "name": "Dugtrio",
-                  "level": "42",
-                  "types": [],
-                  "ability": "Sand Veil",
-                  "item": "None",
-                  "moves": [
-                    {
-                      "name": "Slash Normal -- Sand Tomb Ground --",
-                      "type": "Mud-Slap Ground -- Earthquake Ground --"
-                    },
-                    {
-                      "name": "Slash",
-                      "type": "Normal"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    },
-                    {
-                      "name": "Sand Tomb",
-                      "type": "Ground"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    },
-                    {
-                      "name": "Mud-Slap",
-                      "type": "Ground"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    },
-                    {
-                      "name": "Earthquake",
-                      "type": "Ground"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    }
-                  ]
-                },
-                {
-                  "sprite": "https://archives.bulbagarden.net/media/upload/7/79/Spr_3f_031.png",
-                  "name": "Nidoqueen",
-                  "level": "44",
-                  "types": [
-                    "Poison",
-                    "Ground"
-                  ],
-                  "ability": "Poison Point",
-                  "item": "None",
-                  "moves": [
-                    {
-                      "name": "Double Kick Fighting -- Earthquake Ground --",
-                      "type": "Poison Sting Poison -- Body Slam Normal --"
-                    },
-                    {
-                      "name": "Double Kick",
-                      "type": "Fighting"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    },
-                    {
-                      "name": "Earthquake",
-                      "type": "Ground"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    },
-                    {
-                      "name": "Poison Sting",
-                      "type": "Poison"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    },
-                    {
-                      "name": "Body Slam",
-                      "type": "Normal"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    }
-                  ]
-                },
-                {
-                  "sprite": "https://archives.bulbagarden.net/media/upload/5/5d/Spr_3f_034.png",
-                  "name": "Nidoking",
-                  "level": "45",
-                  "types": [
-                    "Poison",
-                    "Ground"
-                  ],
-                  "ability": "Poison Point",
-                  "item": "None",
-                  "moves": [
-                    {
-                      "name": "Double Kick Fighting -- Earthquake Ground --",
-                      "type": "Poison Sting Poison -- Thrash Normal --"
-                    },
-                    {
-                      "name": "Double Kick",
-                      "type": "Fighting"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    },
-                    {
-                      "name": "Earthquake",
-                      "type": "Ground"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    },
-                    {
-                      "name": "Poison Sting",
-                      "type": "Poison"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    },
-                    {
-                      "name": "Thrash",
-                      "type": "Normal"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    }
-                  ]
-                },
-                {
-                  "sprite": "https://archives.bulbagarden.net/media/upload/a/a1/Spr_3f_111.png",
-                  "name": "Rhyhorn",
-                  "level": "50",
-                  "types": [
-                    "Ground",
-                    "Rock"
-                  ],
-                  "ability": "Lightningrod",
-                  "item": "None",
-                  "moves": [
-                    {
-                      "name": "Take Down Normal -- Rock Blast Rock --",
-                      "type": "Scary Face Normal -- Earthquake Ground --"
-                    },
-                    {
-                      "name": "Take Down",
-                      "type": "Normal"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    },
-                    {
-                      "name": "Rock Blast",
-                      "type": "Rock"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    },
-                    {
-                      "name": "Scary Face",
-                      "type": "Normal"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    },
-                    {
-                      "name": "Earthquake",
-                      "type": "Ground"
-                    },
-                    {
-                      "name": "--",
-                      "type": ""
-                    }
-                  ]
-                }
-              ]
-            }
+            "text": "Water Path is a long route on the east side of the main island. It links the town with Green Path to the north and Ruin Valley to the south."
           },
           {
             "type": "table",
@@ -1054,162 +1620,97 @@
               ],
               "rows": [
                 [
-                  "Tamer Cole Reward: $ 1560",
+                  "Juggler Edward Reward: $ 1920",
                   [
                     {
-                      "name": "Arbok ♂",
-                      "level": "39",
+                      "name": "Voltorb",
+                      "level": "46",
                       "item": "No item"
                     },
                     {
-                      "name": "Tauros ♂",
-                      "level": "39",
+                      "name": "Voltorb",
+                      "level": "46",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Electrode",
+                      "level": "47",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Mr. Mime ♂",
+                      "level": "48",
                       "item": "No item"
                     }
                   ]
                 ],
                 [
-                  "Black Belt Kiyo Reward: $ 1032",
+                  "Hiker Earl Reward: $ 1764",
                   [
-                    {
-                      "name": "Machoke ♂",
-                      "level": "43",
-                      "item": "Black Belt"
-                    }
-                  ]
-                ],
-                [
-                  "Cooltrainer Samuel Reward: $ 1404",
-                  [
-                    {
-                      "name": "Sandslash ♂",
-                      "level": "37",
-                      "item": "No item"
-                    },
-                    {
-                      "name": "Sandslash ♂",
-                      "level": "37",
-                      "item": "No item"
-                    },
-                    {
-                      "name": "Rhyhorn ♂",
-                      "level": "38",
-                      "item": "No item"
-                    },
-                    {
-                      "name": "Nidorino ♂",
-                      "level": "39",
-                      "item": "No item"
-                    },
-                    {
-                      "name": "Nidoking ♂",
-                      "level": "39",
-                      "item": "No item"
-                    }
-                  ]
-                ],
-                [
-                  "Cooltrainer Yuji Reward: $ 1368",
-                  [
-                    {
-                      "name": "Sandslash ♂",
-                      "level": "38",
-                      "item": "No item"
-                    },
-                    {
-                      "name": "Graveler ♂",
-                      "level": "38",
-                      "item": "No item"
-                    },
                     {
                       "name": "Onix ♂",
-                      "level": "38",
+                      "level": "49",
                       "item": "No item"
-                    },
-                    {
-                      "name": "Graveler ♂",
-                      "level": "38",
-                      "item": "No item"
-                    },
-                    {
-                      "name": "Marowak ♂",
-                      "level": "38",
-                      "item": "No item"
-                    }
-                  ]
-                ],
-                [
-                  "Black Belt Atsushi Reward: $ 960",
-                  [
-                    {
-                      "name": "Machop ♂",
-                      "level": "40",
-                      "item": "Black Belt"
                     },
                     {
                       "name": "Machoke ♂",
-                      "level": "40",
-                      "item": "Black Belt"
-                    }
-                  ]
-                ],
-                [
-                  "Tamer Jason Reward: $ 1720",
-                  [
-                    {
-                      "name": "Rhyhorn ♂",
-                      "level": "43",
+                      "level": "49",
                       "item": "No item"
                     }
                   ]
                 ],
                 [
-                  "Cooltrainer Warren Reward: $ 1404",
+                  "Swimmer♀ Denise Reward: $ 196",
                   [
                     {
-                      "name": "Marowak ♂",
-                      "level": "37",
+                      "name": "Chinchou ♀",
+                      "level": "49",
                       "item": "No item"
                     },
                     {
-                      "name": "Marowak ♂",
-                      "level": "37",
-                      "item": "No item"
-                    },
-                    {
-                      "name": "Rhyhorn ♂",
-                      "level": "38",
-                      "item": "No item"
-                    },
-                    {
-                      "name": "Nidorina ♀",
-                      "level": "39",
-                      "item": "No item"
-                    },
-                    {
-                      "name": "Nidoqueen ♀",
-                      "level": "39",
+                      "name": "Lanturn ♀",
+                      "level": "49",
                       "item": "No item"
                     }
                   ]
                 ],
                 [
-                  "Black Belt Takashi Reward: $ 912",
+                  "Swimmer♂ Samir Reward: $ 200",
                   [
                     {
-                      "name": "Machoke ♂",
-                      "level": "38",
-                      "item": "Black Belt"
+                      "name": "Gyarados ♂",
+                      "level": "50",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "Twins Miu & Mia Reward: $ 1200",
+                  [
+                    {
+                      "name": "Pikachu ♂",
+                      "level": "50",
+                      "item": "No item"
                     },
                     {
-                      "name": "Machop ♂",
-                      "level": "38",
-                      "item": "Black Belt"
+                      "name": "Pikachu ♂",
+                      "level": "50",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "Aroma Lady Rose Reward: $ 1372",
+                  [
+                    {
+                      "name": "Sunkern ♀",
+                      "level": "49",
+                      "item": "No item"
                     },
                     {
-                      "name": "Machoke ♂",
-                      "level": "38",
-                      "item": "Black Belt"
+                      "name": "Sunflora ♀",
+                      "level": "49",
+                      "item": "No item"
                     }
                   ]
                 ]
@@ -1217,14 +1718,290 @@
             }
           },
           {
-            "type": "paragraph",
-            "text": "After the battle, Giovanni awards you the Earth Badge , which ensures obedience from all Pokémon, regardless of level. As a prize, he also gives you TM26 ( Earthquake ), a TM he claims to have made when he first acted as Gym Leader. He seems remorseful of his actions, and officially disbands Team Rocket before disappearing."
+            "type": "Available Pokémon",
+            "data": {
+              "headers": [
+                "Pokémon",
+                "Games",
+                "Location",
+                "Levels",
+                "Rate",
+                "Section"
+              ],
+              "rows": [
+                [
+                  "Sentret",
+                  "FR/LG",
+                  "Grass",
+                  "10, 15",
+                  "30%",
+                  "Water Path"
+                ],
+                [
+                  "Spearow",
+                  "FR/LG",
+                  "Grass",
+                  "",
+                  "20%",
+                  "Water Path"
+                ],
+                [
+                  "Fearow",
+                  "FR/LG",
+                  "Grass",
+                  "48, 50",
+                  "15%",
+                  "Water Path"
+                ],
+                [
+                  "Oddish",
+                  "FR",
+                  "Grass",
+                  "",
+                  "10%",
+                  "Water Path"
+                ],
+                [
+                  "Meowth",
+                  "FR/LG",
+                  "Grass",
+                  "",
+                  "10%",
+                  "Water Path"
+                ],
+                [
+                  "Bellsprout",
+                  "LG",
+                  "Grass",
+                  "",
+                  "10%",
+                  "Water Path"
+                ],
+                [
+                  "Gloom",
+                  "FR",
+                  "Grass",
+                  "",
+                  "5%",
+                  "Water Path"
+                ],
+                [
+                  "Persian",
+                  "FR/LG",
+                  "Grass",
+                  "47, 50",
+                  "5%",
+                  "Water Path"
+                ],
+                [
+                  "Psyduck",
+                  "FR",
+                  "Grass",
+                  "",
+                  "5%",
+                  "Water Path"
+                ],
+                [
+                  "Weepinbell",
+                  "LG",
+                  "Grass",
+                  "",
+                  "5%",
+                  "Water Path"
+                ],
+                [
+                  "Slowpoke",
+                  "LG",
+                  "Grass",
+                  "",
+                  "5%",
+                  "Water Path"
+                ],
+                [
+                  "Tentacool",
+                  "FR/LG",
+                  "Surfing",
+                  "5-40",
+                  "95%",
+                  "Water Path"
+                ],
+                [
+                  "Tentacruel",
+                  "FR/LG",
+                  "Surfing",
+                  "35-40",
+                  "5%",
+                  "Water Path"
+                ],
+                [
+                  "Magikarp",
+                  "FR/LG",
+                  "Fishing Old Rod",
+                  "",
+                  "100%",
+                  "Water Path"
+                ],
+                [
+                  "Krabby",
+                  "LG",
+                  "Fishing Good Rod",
+                  "5-15",
+                  "80%",
+                  "Water Path"
+                ],
+                [
+                  "Horsea",
+                  "FR",
+                  "Fishing Good Rod",
+                  "5-15",
+                  "80%",
+                  "Water Path"
+                ],
+                [
+                  "Magikarp",
+                  "FR/LG",
+                  "Fishing Good Rod",
+                  "5-15",
+                  "20%",
+                  "Water Path"
+                ],
+                [
+                  "Krabby",
+                  "LG",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "40%",
+                  "Water Path"
+                ],
+                [
+                  "Horsea",
+                  "FR",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "40%",
+                  "Water Path"
+                ],
+                [
+                  "Qwilfish",
+                  "FR",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "40%",
+                  "Water Path"
+                ],
+                [
+                  "Remoraid",
+                  "LG",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "40%",
+                  "Water Path"
+                ],
+                [
+                  "Gyarados",
+                  "FR/LG",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "15%",
+                  "Water Path"
+                ],
+                [
+                  "Kingler",
+                  "LG",
+                  "Fishing Super Rod",
+                  "25-35",
+                  "4%",
+                  "Water Path"
+                ],
+                [
+                  "Seadra",
+                  "FR",
+                  "Fishing Super Rod",
+                  "25-35",
+                  "4%",
+                  "Water Path"
+                ],
+                [
+                  "Psyduck",
+                  "FR",
+                  "Fishing Super Rod",
+                  "25-35",
+                  "1%",
+                  "Water Path"
+                ],
+                [
+                  "Slowpoke",
+                  "LG",
+                  "Fishing Super Rod",
+                  "25-35",
+                  "1%",
+                  "Water Path"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": [
+                "Item",
+                "Location",
+                "Games"
+              ],
+              "rows": [
+                [
+                  "Oran Berry",
+                  "North-northwest of the northern house (hidden)",
+                  "FR LG"
+                ],
+                [
+                  "Elixir",
+                  "Small bit of land east of the southern house (requires Surf)",
+                  "FR LG"
+                ],
+                [
+                  "Nest Ball",
+                  "Northern house; from the woman, after showing a record-breaking Heracross (repeatable; requires Surf)",
+                  "FR LG"
+                ],
+                [
+                  "Pinap Berry",
+                  "Tall grass patch, southeast of the town entrance (hidden)",
+                  "FR LG"
+                ],
+                [
+                  "Aspear Berry",
+                  "Tall grass patch, southeast of the town entrance and Pinap Berry (hidden)",
+                  "FR LG"
+                ],
+                [
+                  "Dragon Scale",
+                  "Southernmost bit of land, east of Ruin Valley (requires Surf )",
+                  "FR LG"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "section",
+            "title": "The Ultimate Horn",
+            "level": 4,
+            "metadata": {
+              "id": null,
+              "class": []
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "The northern island holds two isolated homes. In the northern house, there is a woman who likes big Heracross and wishes to see the \"ultimate horn\". If you show her a Heracross, she will measure its size and reward you with a Nest Ball . After doing so, she will give out another Nest Ball for each Heracross that you show her that sets a new record. The current record is displayed on a chart on the back wall. Heracross can be found in the nearby Pattern Bush to the west."
+              }
+            ]
           }
         ]
       },
       {
         "type": "section",
-        "title": "The Path to the Summit",
+        "title": "Green Path",
         "level": 3,
         "metadata": {
           "id": null,
@@ -1233,16 +2010,1246 @@
         "content": [
           {
             "type": "paragraph",
-            "text": "Having won all eight Gym Badges, the next destination is the Indigo Plateau , far to the northwest. The elite Trainers there are tough, but before you can challenge them, you must first survive a grueling cave known as Victory Road . Gather your strongest Pokémon team with access to Surf and Strength , and visit a Poké Mart to replenish your supply of Potions and Poké Balls."
+            "text": "Green Path consists of the western part of the smaller island, including Pattern Bush , and a pair of tiny rocky islets farther west. Outcast Island lies off to the north."
           },
           {
             "type": "table",
             "data": {
               "headers": [
-                "This article is part of Project Walkthroughs , a Bulbapedia project that aims to write comprehensive step-by-step guides on each Pokémon game ."
+                "Trainer",
+                "Pokémon"
               ],
-              "rows": []
+              "rows": [
+                [
+                  "Psychic Jaclyn Reward: $ 980",
+                  [
+                    {
+                      "name": "Natu ♀",
+                      "level": "48",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Slowbro ♀",
+                      "level": "48",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Kadabra ♂",
+                      "level": "49",
+                      "item": "No item"
+                    }
+                  ]
+                ]
+              ]
             }
+          },
+          {
+            "type": "Available Pokémon",
+            "data": {
+              "headers": [
+                "Pokémon",
+                "Games",
+                "Location",
+                "Levels",
+                "Rate",
+                "Section"
+              ],
+              "rows": [
+                [
+                  "Tentacool",
+                  "FR/LG",
+                  "Surfing",
+                  "5-40",
+                  "95%",
+                  "Green Path"
+                ],
+                [
+                  "Tentacruel",
+                  "FR/LG",
+                  "Surfing",
+                  "35-40",
+                  "5%",
+                  "Green Path"
+                ],
+                [
+                  "Magikarp",
+                  "FR/LG",
+                  "Fishing Old Rod",
+                  "",
+                  "100%",
+                  "Green Path"
+                ],
+                [
+                  "Horsea",
+                  "FR",
+                  "Fishing Good Rod",
+                  "5-15",
+                  "80%",
+                  "Green Path"
+                ],
+                [
+                  "Krabby",
+                  "LG",
+                  "Fishing Good Rod",
+                  "5-15",
+                  "80%",
+                  "Green Path"
+                ],
+                [
+                  "Magikarp",
+                  "FR/LG",
+                  "Fishing Good Rod",
+                  "5-15",
+                  "20%",
+                  "Green Path"
+                ],
+                [
+                  "Horsea",
+                  "FR",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "40%",
+                  "Green Path"
+                ],
+                [
+                  "Qwilfish",
+                  "FR",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "40%",
+                  "Green Path"
+                ],
+                [
+                  "Krabby",
+                  "LG",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "40%",
+                  "Green Path"
+                ],
+                [
+                  "Remoraid",
+                  "LG",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "40%",
+                  "Green Path"
+                ],
+                [
+                  "Gyarados",
+                  "FR/LG",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "15%",
+                  "Green Path"
+                ],
+                [
+                  "Seadra",
+                  "FR",
+                  "Fishing Super Rod",
+                  "25-35",
+                  "4%",
+                  "Green Path"
+                ],
+                [
+                  "Kingler",
+                  "LG",
+                  "Fishing Super Rod",
+                  "25-35",
+                  "4%",
+                  "Green Path"
+                ],
+                [
+                  "Psyduck",
+                  "FR",
+                  "Fishing Super Rod",
+                  "25-35",
+                  "1%",
+                  "Green Path"
+                ],
+                [
+                  "Slowpoke",
+                  "LG",
+                  "Fishing Super Rod",
+                  "25-35",
+                  "1%",
+                  "Green Path"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": [
+                "Item",
+                "Location",
+                "Games"
+              ],
+              "rows": [
+                [
+                  "Ultra Ball",
+                  "One step south, one step east of Psychic Jaclyn (hidden recurring item ; group A)",
+                  "FR LG"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "section",
+            "title": "Pattern Bush",
+            "level": 4,
+            "metadata": {
+              "id": null,
+              "class": []
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "Pattern Bush is a small forest covered with thick undergrowth, a perfect habitat for the many Bug Pokémon that reside here. There are odd patterns where tall grass refuses to grow, leading the Trainers here to form their own theories. Some study it in the belief that a secret is concealed."
+              },
+              {
+                "type": "table",
+                "data": {
+                  "headers": [
+                    "Trainer",
+                    "Pokémon"
+                  ],
+                  "rows": [
+                    [
+                      "Youngster Cordell Reward: $ 768",
+                      [
+                        {
+                          "name": "Farfetch'd ♂",
+                          "level": "48",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Farfetch'd ♂",
+                          "level": "48",
+                          "item": "No item"
+                        }
+                      ]
+                    ],
+                    [
+                      "Pokémon Breeder Bethany Reward: $ 1400",
+                      [
+                        {
+                          "name": "Chansey ♀",
+                          "level": "50",
+                          "item": "No item"
+                        }
+                      ]
+                    ],
+                    [
+                      "Bug Catcher Garret Reward: $ 588",
+                      [
+                        {
+                          "name": "Heracross ♂",
+                          "level": "49",
+                          "item": "No item"
+                        }
+                      ]
+                    ],
+                    [
+                      "Lass Joana Reward: $ 784",
+                      [
+                        {
+                          "name": "Snubbull ♀",
+                          "level": "49",
+                          "item": "No item"
+                        }
+                      ]
+                    ],
+                    [
+                      "Youngster Nash Reward: $ 784",
+                      [
+                        {
+                          "name": "Weepinbell ♂",
+                          "level": "47",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Weepinbell ♂",
+                          "level": "47",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Victreebel ♂",
+                          "level": "49",
+                          "item": "No item"
+                        }
+                      ]
+                    ],
+                    [
+                      "Bug Catcher Vance Reward: $ 576",
+                      [
+                        {
+                          "name": "Venonat ♂",
+                          "level": "48",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Venomoth ♂",
+                          "level": "48",
+                          "item": "No item"
+                        }
+                      ]
+                    ],
+                    [
+                      "Ruin Maniac Layton Reward: $ 2304",
+                      [
+                        {
+                          "name": "Sandslash ♂",
+                          "level": "48",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Onix ♂",
+                          "level": "48",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Sandslash ♂",
+                          "level": "48",
+                          "item": "No item"
+                        }
+                      ]
+                    ],
+                    [
+                      "Picnicker Marcy Reward: $ 980",
+                      [
+                        {
+                          "name": "Paras ♀",
+                          "level": "48",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Paras ♀",
+                          "level": "48",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Parasect ♀",
+                          "level": "49",
+                          "item": "No item"
+                        }
+                      ]
+                    ],
+                    [
+                      "Bug Catcher Jonah Reward: $ 564",
+                      [
+                        {
+                          "name": "Yanma ♂",
+                          "level": "45",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Beedrill ♂",
+                          "level": "45",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Yanma ♂",
+                          "level": "46",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Beedrill ♂",
+                          "level": "47",
+                          "item": "No item"
+                        }
+                      ]
+                    ],
+                    [
+                      "Lass Dalia Reward: $ 768",
+                      [
+                        {
+                          "name": "Hoppip ♀",
+                          "level": "46",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Hoppip ♀",
+                          "level": "47",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Skiploom ♀",
+                          "level": "47",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Skiploom ♀",
+                          "level": "48",
+                          "item": "No item"
+                        }
+                      ]
+                    ],
+                    [
+                      "Pokémon Breeder Allison Reward: $ 1344",
+                      [
+                        {
+                          "name": "Clefairy ♀",
+                          "level": "48",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Clefairy ♀",
+                          "level": "48",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Clefable ♀",
+                          "level": "48",
+                          "item": "No item"
+                        }
+                      ]
+                    ],
+                    [
+                      "Camper Riley Reward: $ 1000",
+                      [
+                        {
+                          "name": "Pinsir ♂",
+                          "level": "49",
+                          "item": "No item"
+                        },
+                        {
+                          "name": "Heracross ♂",
+                          "level": "50",
+                          "item": "No item"
+                        }
+                      ]
+                    ]
+                  ]
+                }
+              },
+              {
+                "type": "Available Pokémon",
+                "data": {
+                  "headers": [
+                    "Pokémon",
+                    "Games",
+                    "Location",
+                    "Levels",
+                    "Rate",
+                    "Section"
+                  ],
+                  "rows": [
+                    [
+                      "Ledyba",
+                      "LG",
+                      "Grass",
+                      "9, 14",
+                      "30%",
+                      "Pattern Bush"
+                    ],
+                    [
+                      "Spinarak",
+                      "FR",
+                      "Grass",
+                      "9, 14",
+                      "30%",
+                      "Pattern Bush"
+                    ],
+                    [
+                      "Metapod",
+                      "LG",
+                      "Grass",
+                      "",
+                      "20%",
+                      "Pattern Bush"
+                    ],
+                    [
+                      "Kakuna",
+                      "FR",
+                      "Grass",
+                      "",
+                      "20%",
+                      "Pattern Bush"
+                    ],
+                    [
+                      "Heracross",
+                      "FR/LG",
+                      "Grass",
+                      "15, 20, 25, 30",
+                      "20%",
+                      "Pattern Bush"
+                    ],
+                    [
+                      "Caterpie",
+                      "FR/LG",
+                      "Grass",
+                      "",
+                      "10%",
+                      "Pattern Bush"
+                    ],
+                    [
+                      "Weedle",
+                      "FR/LG",
+                      "Grass",
+                      "",
+                      "10%",
+                      "Pattern Bush"
+                    ],
+                    [
+                      "Metapod",
+                      "FR",
+                      "Grass",
+                      "",
+                      "5%",
+                      "Pattern Bush"
+                    ],
+                    [
+                      "Kakuna",
+                      "LG",
+                      "Grass",
+                      "",
+                      "5%",
+                      "Pattern Bush"
+                    ],
+                    [
+                      "Ledyba",
+                      "FR",
+                      "Grass",
+                      "9, 14",
+                      "5%",
+                      "Pattern Bush"
+                    ],
+                    [
+                      "Spinarak",
+                      "LG",
+                      "Grass",
+                      "9, 14",
+                      "5%",
+                      "Pattern Bush"
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Outcast Island",
+        "level": 3,
+        "metadata": {
+          "id": null,
+          "class": []
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Outcast Island is a rocky ocean route that leads to Altering Cave . It is named after the island that lies at its northern terminus, the farthest of the small islets from the main island."
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": [
+                "Trainer",
+                "Pokémon"
+              ],
+              "rows": [
+                [
+                  "Swimmer Nicole Reward: $ 200",
+                  [
+                    {
+                      "name": "Marill ♀",
+                      "level": "50",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "Sis and Bro Ava & Geb Reward: $ 400",
+                  [
+                    {
+                      "name": "Starmie",
+                      "level": "50",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Poliwhirl ♂",
+                      "level": "50",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "Swimmer Mymo Reward: $ 196",
+                  [
+                    {
+                      "name": "Kingler ♂",
+                      "level": "49",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Wartortle ♂",
+                      "level": "49",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "Fisherman Tylor Reward: $ 1764",
+                  [
+                    {
+                      "name": "Qwilfish ♂",
+                      "level": "49",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Qwilfish ♂",
+                      "level": "49",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "Team Rocket Grunt Reward: $ 1536 Only before defeating the Team Rocket Admins at the Rocket Warehouse",
+                  [
+                    {
+                      "name": "Muk ♂",
+                      "level": "48",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Golbat ♂",
+                      "level": "48",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Raticate ♂",
+                      "level": "48",
+                      "item": "No item"
+                    }
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Available Pokémon",
+            "data": {
+              "headers": [
+                "Pokémon",
+                "Games",
+                "Location",
+                "Levels",
+                "Rate",
+                "Section"
+              ],
+              "rows": [
+                [
+                  "Tentacool",
+                  "FR/LG",
+                  "Surfing",
+                  "5-40",
+                  "95%",
+                  "Outcast Island"
+                ],
+                [
+                  "Tentacruel",
+                  "FR/LG",
+                  "Surfing",
+                  "35-40",
+                  "5%",
+                  "Outcast Island"
+                ],
+                [
+                  "Magikarp",
+                  "FR/LG",
+                  "Fishing Old Rod",
+                  "",
+                  "100%",
+                  "Outcast Island"
+                ],
+                [
+                  "Horsea",
+                  "FR",
+                  "Fishing Good Rod",
+                  "5-15",
+                  "80%",
+                  "Outcast Island"
+                ],
+                [
+                  "Krabby",
+                  "LG",
+                  "Fishing Good Rod",
+                  "5-15",
+                  "80%",
+                  "Outcast Island"
+                ],
+                [
+                  "Magikarp",
+                  "FR/LG",
+                  "Fishing Good Rod",
+                  "5-15",
+                  "20%",
+                  "Outcast Island"
+                ],
+                [
+                  "Horsea",
+                  "FR",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "40%",
+                  "Outcast Island"
+                ],
+                [
+                  "Qwilfish",
+                  "FR",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "40%",
+                  "Outcast Island"
+                ],
+                [
+                  "Krabby",
+                  "LG",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "40%",
+                  "Outcast Island"
+                ],
+                [
+                  "Remoraid",
+                  "LG",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "40%",
+                  "Outcast Island"
+                ],
+                [
+                  "Gyarados",
+                  "FR/LG",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "15%",
+                  "Outcast Island"
+                ],
+                [
+                  "Seadra",
+                  "FR",
+                  "Fishing Super Rod",
+                  "25-35",
+                  "4%",
+                  "Outcast Island"
+                ],
+                [
+                  "Kingler",
+                  "LG",
+                  "Fishing Super Rod",
+                  "25-35",
+                  "4%",
+                  "Outcast Island"
+                ],
+                [
+                  "Psyduck",
+                  "FR",
+                  "Fishing Super Rod",
+                  "25-35",
+                  "1%",
+                  "Outcast Island"
+                ],
+                [
+                  "Slowpoke",
+                  "LG",
+                  "Fishing Super Rod",
+                  "25-35",
+                  "1%",
+                  "Outcast Island"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": [
+                "Item",
+                "Location",
+                "Games"
+              ],
+              "rows": [
+                [
+                  "PP Up",
+                  "Southwest of Fisherman Tylor (requires Surf )",
+                  "FR LG"
+                ],
+                [
+                  "Net Ball",
+                  "South of the entrance to Altering Cave (hidden recurring item ; group C)",
+                  "FR LG"
+                ],
+                [
+                  "Star Piece",
+                  "Small bit of land on the east side of the island (requires Surf) (hidden recurring item ; group C)",
+                  "FR LG"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "section",
+            "title": "Altering Cave",
+            "level": 4,
+            "metadata": {
+              "id": null,
+              "class": []
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "Altering Cave is a mysterious, isolated ruin located at the northermost extent of Six Island . The undisturbed cave is home only to wild Zubat ."
+              },
+              {
+                "type": "Available Pokémon",
+                "data": {
+                  "headers": [
+                    "Pokémon",
+                    "Games",
+                    "Location",
+                    "Levels",
+                    "Rate",
+                    "Section"
+                  ],
+                  "rows": [
+                    [
+                      "Zubat",
+                      "FR/LG",
+                      "Cave",
+                      "6, 8, 10, 12, 14, 16",
+                      "100%",
+                      "Altering Cave"
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Ruin Valley",
+        "level": 3,
+        "metadata": {
+          "id": null,
+          "class": []
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Ruin Valley is a large area on the south side of the main island . The Dotted Hole can be found in the middle of the valley, surrounded by steep mountain cliffs."
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": [
+                "Trainer",
+                "Pokémon"
+              ],
+              "rows": [
+                [
+                  "Hiker Daryl Reward: $ 1800",
+                  [
+                    {
+                      "name": "Sudowoodo ♂",
+                      "level": "50",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "PokéManiac Hector Reward: $ 2352",
+                  [
+                    {
+                      "name": "Rhyhorn ♂",
+                      "level": "49",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Kangaskhan ♀",
+                      "level": "49",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "Ruin Maniac Stanly Reward: $ 2304",
+                  [
+                    {
+                      "name": "Graveler ♂",
+                      "level": "48",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Onix ♂",
+                      "level": "48",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Graveler ♂",
+                      "level": "48",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "Ruin Maniac Foster Reward: $ 2400",
+                  [
+                    {
+                      "name": "Golem ♂",
+                      "level": "50",
+                      "item": "No item"
+                    }
+                  ]
+                ],
+                [
+                  "Ruin Maniac Larry Reward: $ 2352",
+                  [
+                    {
+                      "name": "Machoke ♂",
+                      "level": "49",
+                      "item": "No item"
+                    },
+                    {
+                      "name": "Machoke ♂",
+                      "level": "49",
+                      "item": "No item"
+                    }
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Available Pokémon",
+            "data": {
+              "headers": [
+                "Pokémon",
+                "Games",
+                "Location",
+                "Levels",
+                "Rate",
+                "Section"
+              ],
+              "rows": [
+                [
+                  "Natu",
+                  "FR/LG",
+                  "Grass",
+                  "15, 20",
+                  "25%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Spearow",
+                  "FR/LG",
+                  "Grass",
+                  "",
+                  "20%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Fearow",
+                  "FR/LG",
+                  "Grass",
+                  "",
+                  "10%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Meowth",
+                  "FR/LG",
+                  "Grass",
+                  "",
+                  "10%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Marill",
+                  "LG",
+                  "Grass",
+                  "",
+                  "10%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Yanma",
+                  "FR/LG",
+                  "Grass",
+                  "",
+                  "10%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Wooper",
+                  "FR",
+                  "Grass",
+                  "",
+                  "10%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Persian",
+                  "FR/LG",
+                  "Grass",
+                  "49, 52",
+                  "5%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Psyduck",
+                  "FR",
+                  "Grass",
+                  "",
+                  "5%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Slowpoke",
+                  "LG",
+                  "Grass",
+                  "",
+                  "5%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Wobbuffet",
+                  "FR/LG",
+                  "Grass",
+                  "",
+                  "5%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Marill",
+                  "LG",
+                  "Surfing",
+                  "5-25",
+                  "100%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Wooper",
+                  "FR",
+                  "Surfing",
+                  "5-25",
+                  "100%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Magikarp",
+                  "FR/LG",
+                  "Fishing Old Rod",
+                  "",
+                  "100%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Poliwag",
+                  "FR/LG",
+                  "Fishing Good Rod",
+                  "5-15",
+                  "60%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Goldeen",
+                  "FR/LG",
+                  "Fishing Good Rod",
+                  "5-15",
+                  "20%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Magikarp",
+                  "FR/LG",
+                  "Fishing Good Rod",
+                  "5-15",
+                  "20%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Poliwag",
+                  "FR/LG",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "40%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Poliwhirl",
+                  "FR/LG",
+                  "Fishing Super Rod",
+                  "20-30",
+                  "40%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Gyarados",
+                  "FR/LG",
+                  "Fishing Super Rod",
+                  "15-25",
+                  "15%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Psyduck",
+                  "FR",
+                  "Fishing Super Rod",
+                  "15-35",
+                  "5%",
+                  "Ruin Valley"
+                ],
+                [
+                  "Slowpoke",
+                  "LG",
+                  "Fishing Super Rod",
+                  "15-35",
+                  "5%",
+                  "Ruin Valley"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": [
+                "Item",
+                "Location",
+                "Games"
+              ],
+              "rows": [
+                [
+                  "Sun Stone",
+                  "Near the southeast corner (requires Strength )",
+                  "FR LG"
+                ],
+                [
+                  "HP Up",
+                  "Near the southwest corner (requires Strength)",
+                  "FR LG"
+                ],
+                [
+                  "Full Restore",
+                  "Northwest area, southeast of Hiker Daryl on the upper level (requires Strength)",
+                  "FR LG"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "section",
+            "title": "Exploring the Ruins",
+            "level": 5,
+            "metadata": {
+              "id": null,
+              "class": []
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "The entrance to the Dotted Hole has been sealed tight for ages and refuses to budge. On further inspection, there are several dots on the door; this Braille message translates to the word \" Cut \". Using the field move here causes the door to open."
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "title": "Dotted Hole",
+            "level": 4,
+            "metadata": {
+              "id": null,
+              "class": []
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "The Dotted Hole is a mysterious ruin from an ancient time. It got its name from the six dots on its door."
+              },
+              {
+                "type": "section",
+                "title": "1F",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "There is nothing of interest on the ground level, so jump down through the hole in the floor to reach B1F."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "B1F-B4F",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "The next several levels each display a panel with a word shown in Braille and have four gaps in the floor, one near each wall. Any visitors would need to decipher the message on each level to learn the correct path forward. Starting on B1F, jump down through each hole in order (up, left, right, down) to reach the lowest level."
+                  }
+                ]
+              },
+              {
+                "type": "section",
+                "title": "B5F",
+                "level": 5,
+                "metadata": {
+                  "id": null,
+                  "class": []
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "On the lowest level, you find the Sapphire on display, just like the Ruby in Mt. Ember . When you attempt to grab it, a Scientist suddenly drops down from the level above. He followed you so that you would open the ruins, and intends to sell the gemstone to Team Rocket ! Seemingly feeling a bit guilty, he suggests that you can retrieve it after he gets his money. He even offers a password for the Rocket Warehouse — \"Yes, nah, Chansey \" —before climbing the ladder and making his escape."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "A panel on the north wall features another Braille inscription."
+                  },
+                  {
+                    "type": "table",
+                    "data": {
+                      "headers": [
+                        "Braille",
+                        "English"
+                      ],
+                      "rows": [
+                        [
+                          "⠇⠑⠞⠀⠞⠓⠑⠀⠞⠺⠕⠀⠛⠇⠊⠞⠞⠑⠗⠊⠝⠛⠀⠎⠞⠕⠝⠑⠎ ⠕⠝⠑⠀⠊⠝⠀⠗⠑⠙ ⠕⠝⠑⠀⠊⠝⠀⠃⠇⠥⠑ ⠉⠕⠝⠝⠑⠉⠞⠀⠞⠓⠑⠀⠏⠁⠎⠞⠲ ⠞⠺⠕⠀⠋⠗⠊⠑⠝⠙⠎⠀⠎⠓⠁⠗⠊⠝⠛⠀⠏⠕⠺⠑⠗⠀⠕⠏⠑⠝⠀⠁⠀⠺⠊⠝⠙⠕⠺⠀⠞⠕⠀⠁⠀⠝⠑⠺⠀⠺⠕⠗⠇⠙⠀⠞⠓⠁⠞⠀⠛⠇⠕⠺⠎⠲ ⠞⠓⠑⠀⠝⠑⠭⠞⠀⠺⠕⠗⠇⠙⠀⠺⠁⠊⠞⠎⠀⠋⠕⠗⠀⠽⠕⠥⠲",
+                          "LET THE TWO GLITTERING STONES ONE IN RED ONE IN BLUE CONNECT THE PAST. TWO FRIENDS SHARING POWER OPEN A WINDOW TO A NEW WORLD THAT GLOWS. THE NEXT WORLD WAITS FOR YOU."
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "With the Sapphire stolen and both passwords collected, it's time to visit Five Island and clear out the rest of the Rockets."
+                  },
+                  {
+                    "type": "table",
+                    "data": {
+                      "headers": [
+                        "This article is part of Project Walkthroughs , a Bulbapedia project that aims to write comprehensive step-by-step guides on each Pokémon game ."
+                      ],
+                      "rows": []
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
