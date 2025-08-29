@@ -8,12 +8,10 @@ from bs4 import BeautifulSoup
 import re
 from bs4.element import Tag
 import unicodedata
+from urllib.parse import quote
 
 
 BATTLE_BALL_RE = re.compile(r'Ball(full|empty)\.png', re.I)
-
-def normalize(s):
-    return s.strip().lower()
 
 def table_rows(tbl):
     """
@@ -21,33 +19,6 @@ def table_rows(tbl):
     """
     body = tbl.find('tbody') or tbl
     return body.find_all('tr', recursive=False)
-
-def find_battle_card_wrappers(root):
-    """
-    Find unique wrapper <table>s that contain a Bulbapedia battle card
-    anywhere under `root`. We locate all head rows id='collapsible-section_*'
-    and return the outermost <table> that contains each head.
-    """
-    wrappers = []
-    seen = set()
-
-    for head in root.find_all('tr', id=re.compile(r'^collapsible-section_\d+$')):
-        # Climb to the nearest <table> that contains this header. Use the
-        # first ancestor that's a <table> — that is the wrapper to parse.
-        wrapper = head.find_parent('table')
-        if not wrapper:
-            continue
-        key = id(wrapper)
-        if key in seen:
-            continue
-        # sanity: ensure the matching hidden row exists under the same wrapper
-        sib = head.find_next_sibling('tr')
-        if not (sib and 'display' in (sib.get('style',''))):
-            continue
-        seen.add(key)
-        wrappers.append(wrapper)
-
-    return wrappers
 
 def _find_expandable_pair(wrapper_tbl):
     """
@@ -116,83 +87,6 @@ def is_battle_card(tbl):
             return False
 
     return True
-
-
-def extract_reward(tbl):
-    reward = ''
-    cell = tbl.find(lambda t: t.name in ('td','th') and 'reward:' in t.get_text(strip=True).lower())
-    if cell:
-        raw = cell.get_text(' ', strip=True)
-        m = re.search(r'([$\u00A3\u00A5]?\s*\d[\d,]*)', raw)  # $1,560 or 5000 etc.
-        if m:
-            reward = m.group(1).replace(',', '').strip().lstrip('$')
-    return reward
-
-def parse_battle_header(tbl):
-    portrait = ''
-    portrait_th = tbl.find('th', attrs={'width': re.compile(r'^80'), 'height': re.compile(r'^80')})
-    if portrait_th:
-        img = portrait_th.find('img')
-        if img and img.get('src'):
-            portrait = img['src']
-
-    # right-side mini table
-    info_tbl = portrait_th.find_next('table') if portrait_th else None
-    role = name = venue = games = ''
-
-    if info_tbl:
-        rows = [r.get_text(' ', strip=True) for r in info_tbl.find_all('tr')]
-        rows = [r for r in rows if r]  # drop blanks
-        # expected: [role, name, maybe blank, venue, games]
-        if rows: role = rows[0]
-        if len(rows) > 1: name = rows[1]
-        # skip noise lines like hidden display:none
-        tail = [t for t in rows[2:] if t]
-        if tail:
-            venue = tail[0]
-            if len(tail) > 1:
-                games = tail[1]
-
-    # Reward
-    reward = ''
-    reward_cell = tbl.find(lambda t: t.name in ('td','th') and 'Reward:' in t.get_text())
-    if reward_cell:
-        # keep digits only
-        text = reward_cell.get_text()
-        match = re.search(r'[\$₽¥€£]?\s?(\d[\d,]*)', text)
-        if match:
-            reward = match.group(1).replace(',', '')  
-
-    # Ballfull/Ballempty row to count party size
-    balls = 0
-    balls_cell = reward_cell.find_next('td') if reward_cell else None
-    if balls_cell:
-        balls = len(balls_cell.find_all('img', src=lambda s: s and 'Ball' in s))
-
-    # Normalize a “category” to help downstream (optional)
-    role_low = role.lower()
-    if 'elite four' in role_low:
-        category = 'elite_four'
-    elif 'leader' in role_low or 'gym leader' in role_low:
-        category = 'gym_leader'
-    elif 'rival' in role_low:
-        category = 'rival'
-    elif 'rocket' in role_low:
-        category = 'team_rocket'
-    else:
-        category = 'trainer'
-
-    return {
-        'role': role,          # "Elite Four" / "Leader" / "Rival" / ...
-        'name': name,          # "Lorelei" / "Giovanni"
-        'venue': venue,        # "Indigo Plateau" / "Viridian Gym"
-        'games': games,        # "FireRed and LeafGreen"
-        'reward': reward,      # "6600" / "5000"
-        'portrait': portrait,  # sprite url
-        'balls': balls,
-        'category': category,
-    }
-
 
 def extract_mon_card(card_tbl):
     mon = {
@@ -281,35 +175,6 @@ def extract_mon_card(card_tbl):
 
     return mon
 
-def parse_battle_party(tbl):
-    party = []
-    hidden = tbl.find(lambda t: t.name == 'tr' and t.has_attr('style') and 'display' in t['style'])
-    if not hidden:
-        return party
-
-    # Usually the immediate child is the colored frame; under it we see many width=250px roundy tables (each mon)
-    card_tables = hidden.find_all('table', class_='roundy', attrs={'width': re.compile(r'^250')})
-    if not card_tables:
-        # fallback: any 'roundy' tables that contain a Lv. marker
-        card_tables = [t for t in hidden.find_all('table', class_='roundy')
-                       if t.find(string=lambda s: s and 'Lv.' in s)]
-
-    seen = 0
-    for card in card_tables:
-        mon = extract_mon_card(card)
-        if mon.get('name') or mon.get('sprite') or mon.get('level'):
-            party.append(mon); seen += 1
-
-    # Safety: if zero found, try a broader sweep (rare layouts)
-    if not party:
-        for card in hidden.find_all('table'):
-            if card.find('img') and card.find(string=lambda s: s and 'Lv.' in s):
-                mon = extract_mon_card(card)
-                if mon.get('name') or mon.get('sprite') or mon.get('level'):
-                    party.append(mon)
-
-    return party
-
 def parse_battle_card(wrapper_tbl):
     head, hidden = _find_expandable_pair(wrapper_tbl)
     if not head:
@@ -390,48 +255,7 @@ def parse_battle_card(wrapper_tbl):
         }
     }
 
-def _closest_expandable_table(node: Tag) -> Tag | None:
-    """Climb from a node to the nearest <table class='expandable'>, else nearest <table>."""
-    if not isinstance(node, Tag):
-        return None
-    t = node.find_parent('table', class_='expandable')
-    if t:
-        return t
-    return node.find_parent('table')
 
-def closest_expandable_wrapper(node: Tag) -> Tag | None:
-    """Climb to nearest <table class='expandable'>; if none, nearest <table>."""
-    if not isinstance(node, Tag):
-        return None
-    t = node.find_parent('table', class_='expandable')
-    if t:
-        return t
-    return node.find_parent('table')
-
-def _find_expandable_pair(wrapper_tbl):
-    """
-    Return (head_tr, hidden_tr) for a Bulbapedia battle card inside wrapper_tbl,
-    or (None, None) if not present.
-    """
-    if not wrapper_tbl or wrapper_tbl.name != 'table':
-        return (None, None)
-
-    # The header row has id like collapsible-section_10
-    head = wrapper_tbl.find('tr', id=re.compile(r'^collapsible-section_\d+$'))
-    if not head:
-        return (None, None)
-
-    hidden = head.find_next_sibling('tr')
-    if not (hidden and 'display' in (hidden.get('style',''))):
-        return (None, None)
-
-    # extra guard: the header must contain a circular portrait and a reward cell
-    portrait_th = head.find(lambda th: th.name=='th' and 'overflow:hidden' in (th.get('style','')))
-    reward_cell = head.find(lambda t: t.name in ('td','th') and 'reward:' in t.get_text(strip=True).lower())
-    if not (portrait_th and reward_cell):
-        return (None, None)
-
-    return (head, hidden)
 def row_cells(tr):
     """
     Return the immediate cells for a row (<td>/<th>), not diving into nested tables.
@@ -447,11 +271,6 @@ def norm_text(el):
     txt = el.get_text(' ', strip=True)
     txt = re.sub(r'\[[^\]]*\]', '', txt)      # remove [show], [hide], etc.
     return ' '.join(txt.split())
-
-def title_matches(title, *needles):
-    """Case-insensitive contains, normalize 'Pokémon'."""
-    t = title.lower().replace('pokémon', 'pokemon')
-    return all(n.lower().replace('pokémon', 'pokemon') in t for n in needles)
 
 def th_texts_for(table):
     """Yield text for <th> whose closest parent table is this table (ignore deeper nested tables)."""
@@ -474,20 +293,6 @@ def get_table_title(table):
         return t
     return ""
 
-def is_gym_leader_block(table: Tag) -> bool:
-    """
-    True iff THIS exact <table> is the gym-leader wrapper:
-    - it contains a descendant <a> whose href points to /wiki/Gym_Leader
-    - and that anchor's closest expandable table == this table
-    """
-    if not isinstance(table, Tag) or table.name != 'table':
-        return False
-    a = table.find('a', href=lambda h: is_gym_leader_href(h))
-    if not a:
-        return False
-    owner = _closest_expandable_table(a)
-    return owner is not None and owner == table
-
 def unwrap_inner_data_table(wrapper_table):
     """
     Bulbapedia uses a wrapper table with [show] + a hidden <td><table class='roundy'>…</table></td>.
@@ -504,30 +309,6 @@ def unwrap_inner_data_table(wrapper_table):
     # Prefer a 'roundy' table when present
     inner_roundy = wrapper_table.find('table', class_='roundy')
     return inner_roundy or wrapper_table
-
-def is_headerish_row(cells):
-    """
-    Return True if this <tr> is a header/sub-header row we should skip.
-    Catches:
-      - rows composed only of <th>
-      - rows whose non-empty texts are just labels like 'Pokémon', 'Location', 'FR', 'LG', ...
-      - pattern like ['Pokémon', '', 'Location', ...]
-    """
-    labels = {'Pokémon', 'Pokemon', 'Games', 'Location', 'Levels', 'Rate', 'FR', 'LG'}
-    texts = [norm_text(c) for c in cells]
-    nonempty = [t for t in texts if t]
-
-    if not nonempty:
-        return True
-    if all(c.name == 'th' for c in cells):
-        return True
-    if set(nonempty).issubset(labels):
-        return True
-    if (texts and texts[0] in ('Pokémon', 'Pokemon')) and any(t == 'Location' for t in texts[1:]):
-        return True
-    return False
-
-
 
 def parse_table(table):
     """Extract headers and rows from an HTML table, handling nested tables as cells."""
@@ -813,53 +594,6 @@ def enclosing_section_title(node):
     h = node.find_previous(['h6','h5','h4','h3','h2'])
     return norm_text(h) if h else ''
 
-def is_trainers_table(tbl):
-    """
-    Heuristic detector for Bulbapedia 'Trainers' tables.
-
-    Rules (in order of confidence):
-    1) Wrapper/inner title contains 'Trainers' (or 'Trainer').
-    2) Header THs contain 'Trainer' (common on some pages).
-    3) Structural fallback: multiple centered rows with small sprites (16–32 px)
-       and text containing 'Lv.' — typical of trainer party listings.
-    Guard: if the element (or its inner) is a battle card, return False.
-    """
-    if not tbl or tbl.name != 'table':
-        return False
-
-    # Never misclassify a battle card as a trainers table
-    inner = unwrap_inner_data_table(tbl) or tbl
-    if is_battle_card(tbl) or (inner is not tbl and is_battle_card(inner)):
-        return False
-
-    # 1) Title check on wrapper/inner
-    title_wr = (get_table_title(tbl) or '').strip().lower()
-    title_in = (get_table_title(inner) or '').strip().lower()
-    if ('trainer' in title_wr) or ('trainer' in title_in):
-        return True
-    if ('trainers' in title_wr) or ('trainers' in title_in):
-        return True
-
-    # 2) Header THs include 'Trainer'
-    th_texts = [norm_text(th).lower() for th in inner.find_all('th')]
-    if any('trainer' in t for t in th_texts):
-        return True
-
-    # 3) Structural fallback: many centered rows with tiny sprites + 'Lv.'
-    #    (Bulbapedia trainer-party rows use 16/24/32px icons and show levels)
-    centered_rows = inner.find_all('tr', attrs={'align': re.compile(r'^\s*center\s*$', re.I)})
-    hits = 0
-    for tr in centered_rows:
-        if tr.find('img', attrs={'width': re.compile(r'^(16|24|32)$')}) or \
-           tr.find('img', attrs={'height': re.compile(r'^(16|24|32)$')}):
-            txt = tr.get_text(' ', strip=True).lower()
-            if 'lv.' in txt or 'lv' in txt:
-                hits += 1
-        # quick exit if we’ve seen enough signal
-        if hits >= 3:
-            return True
-    return False
-
 def is_expandable_battle_card(wrapper):
     if not (wrapper and wrapper.name == 'table'):
         return False
@@ -886,21 +620,6 @@ def is_expandable_battle_card(wrapper):
         return False
 
     return True
-
-def looks_like_trainers_table(tbl: Tag) -> bool:
-    """
-    Simple heuristic: Bulbapedia trainer tables usually have
-    'Trainers' in the wrapper/caption title or 'Trainer' in header text.
-    """
-    # Table caption/title
-    caption = tbl.find('caption')
-    wrapper_title = caption.get_text(strip=True) if caption else ''
-
-    # Header row text
-    header_cells = [th.get_text(" ", strip=True) for th in tbl.find_all("th")]
-    header_text = " ".join(header_cells)
-
-    return ('Trainers' in wrapper_title) or ('Trainer' in header_text)
 
 
 def parse_content(soup, image_dir='images'):
@@ -1062,6 +781,7 @@ def parse_content(soup, image_dir='images'):
     return sections
 
 
+ 
 def html_to_json(html_file, json_file, image_dir='images'):
     """Load HTML, parse it, and write out nested JSON."""
     with open(html_file, 'r', encoding='utf-8') as f:
